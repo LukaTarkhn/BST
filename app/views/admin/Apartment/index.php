@@ -27,20 +27,19 @@
                         <?php foreach ($apartments as $apartment): ?>
                             <?php $sumPrice = $sumPrice + intval($apartment['sellprice']); ?>
                         <?php endforeach; ?>
-                        <div class="info-box bg-success">
+                        <!-- <div class="info-box bg-success">
                             <span class="info-box-icon"><i class="far fa-thumbs-up"></i></span>
                             <div class="info-box-content">
                                 <span class="info-box-text">Sold apartments sum price</span>
                                 <span class="info-box-number"><?=$sumPrice?> USD</span>
                             </div>
-                        </div>
+                        </div> -->
                         <table class="table table-bordered">
                             <thead class="thead-dark">
                             <tr>
                                 <th>Floor</th>
                                 <th>Apartment No.</th>
                                 <th>Area</th>
-                                <th>Sell Price</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
@@ -51,15 +50,14 @@
                                     <th>floor <?=$apartment['floorid']?></th>
                                     <th>Apartment No. <?=$apartment['apartmentno']?></th>
                                     <th><?=$apartment['kvmeter']?> m<sup>2</sup> </th>
-                                    <th><?=$apartment['sellprice']?> USD</th>
                                     <?php if($apartment['status'] != 2) : ?>
                                         <th><?=$apartment['status'] ? 'Sold' : 'For sale';?></th>
                                     <?php else : ?>
                                         <th>Booked</th>
                                     <?php endif; ?>
                                     <th>
-                                        <a href="<?=ADMIN;?>/apartment/edit?id=<?=$apartment['id']?>">
-                                            <i class="fa fa-fw fa-edit text-primary"></i>
+                                        <a style="width: 100%;" href="<?=ADMIN;?>/apartment/edit?id=<?=$apartment['id']?>">
+                                            <i style="width: 100%" class="fa fa-fw fa-edit text-primary"></i>
                                         </a>
                                     </th>
                                 </tr>

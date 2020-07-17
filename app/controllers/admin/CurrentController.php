@@ -10,9 +10,9 @@ use ibuild\App;
 class CurrentController extends AppController
 {
     public function indexAction() {
-        $currents = \R::findAll('current');
-        $this->setMeta('Current works list');
-        $this->set(compact('currents'));
+        $medias = \R::findAll('media');
+        $this->setMeta('Media list');
+        $this->set(compact('medias'));
     }
 
     public function addImageAction() {
@@ -22,34 +22,34 @@ class CurrentController extends AppController
                 $hmax = App::$app->getProperty('currentimg_height');
             }
             $name = $_POST['name'];
-            $current = new Current();
-            $current->uploadImg($name, $wmax, $hmax);
+            $media = new Current();
+            $media->uploadImg($name, $wmax, $hmax);
         }
     }
 
     public function editAction() {
         if(!empty($_POST)) {
             $id = $this->getRequestID(false);
-            $current = new Current();
+            $media = new Current();
             $data = $_POST;
-            $current->load($data);
-            $current->getImg();
-            if($current->update('current', $id)) {
-                $current = \R::load('current', $id);
-                \R::store($current);
+            $media->load($data);
+            $media->getImg();
+            if($media->update('media', $id)) {
+                $media = \R::load('media', $id);
+                \R::store($media);
                 $_SESSION['success'] = "Edit saved";
                 redirect();
             }
         }
         $id = $this->getRequestID();
-        $current = \R::load("current", $id);
-        $this->setMeta("Current work {$current->title_geo}");
-        $this->set(compact('current'));
+        $media = \R::load("media", $id);
+        $this->setMeta("media {$media->image}");
+        $this->set(compact('media'));
     }
 
     public function deleteAction(){
         $id = $this->getRequestID();
-        \R::exec("DELETE FROM current WHERE id = ?", [$id]);
+        \R::exec("DELETE FROM media WHERE id = ?", [$id]);
         redirect();
     }
 
@@ -59,12 +59,12 @@ class CurrentController extends AppController
             $data = $_POST;
             $current->load($data);
             $current->getImg();
-            if($id = $current->save('current')) {
-                $_SESSION['success'] = "Current work added";
+            if($id = $current->save('media')) {
+                $_SESSION['success'] = "media added";
             }
             redirect();
         }
 
-        $this->setMeta('New current work');
+        $this->setMeta('New media');
     }
 }

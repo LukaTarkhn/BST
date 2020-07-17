@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Add new current work</h1>
+                <h1 class="m-0 text-dark">Add new Media</h1>
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -22,53 +22,17 @@
                 <?php endif; ?>
                 <form action="<?=ADMIN;?>/current/add" method="post" data-toggle="validator">
                     <div class="form-group">
-                                <label for="title">Main image</label>
+                                <label for="image">Image</label>
                                 <div class="box-body">
                                     <div id="single" class="btn btn-success" data-url="current/add-image" data-name="single">Select Image</div>
-                                    <p><small>Recomended size: 980x255px</small></p>
+                                    <p><small>Recomended size: 1000x1000px</small></p>
                                     <div class="single"></div>
                                 </div>
                     </div>
                     <div class="box-body">
                         <div class="form-group">
-                            <label for="title">Title-geo</label>
-                            <input type="text" class="form-control" name="title_geo" id="title_geo" value="" required>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Content-geo</label>
-                            <textarea type="text" name="content_geo" id="content_geo" class="form-control textarea" placeholder="Place some text here"
-                                      style="width: 100%; height: 600px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
-                            </textarea>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Title-eng</label>
-                            <input type="text" class="form-control" name="title_eng" id="title_eng" value="" required>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Content-eng</label>
-                            <textarea type="text" name="content_eng" id="content_eng" class="form-control textarea" placeholder="Place some text here"
-                                      style="width: 100%; height: 600px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
-                            </textarea>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Title-rus</label>
-                            <input type="text" class="form-control" name="title_rus" id="title_rus" value="" required>
-                        </div>
-                    </div>
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Content-rus</label>
-                            <textarea type="text" name="content_rus" id="content_rus" class="form-control textarea" placeholder="Place some text here"
-                                      style="width: 100%; height: 600px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
-                            </textarea>
+                            <label for="video">Video <small>https://www.youtube.com/watch?v=<b>yEOFdEDAAhQ</b> მიუთითეთ დასამატებელი youtube ლინკის მხოლოდ კოდი v= შემდეგ რაც წერია</small></label>
+                            <input type="text" class="form-control" name="video" id="video" value="">
                         </div>
                     </div>
                     <div class="box-footer">

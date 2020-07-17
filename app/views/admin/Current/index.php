@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Current works list <br><br>
+                <h1 class="m-0 text-dark">media list <br><br>
                     <a href="<?=ADMIN;?>/current/add">
                         <i class="fa fa-fw fa-plus text-primary"></i>
                     </a>
@@ -23,25 +23,27 @@
                         <table class="table table-bordered table-hover">
                             <thead class="thead-dark">
                             <tr>
-                                <th>ID</th>
-                                <th>Title-geo</th>
-                                <th>Title-eng</th>
-                                <th>Title-rus</th>
-                                <th>Action</th>
+                                <th>Image</th>
+                                <th>Video</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php foreach ($currents as $current): ?>
+                            <?php foreach ($medias as $media): ?>
                                 <tr>
-                                    <th><?=$current['id']?></th>
-                                    <th><?=$current['title_geo']?></th>
-                                    <th><?=$current['title_eng']?></th>
-                                    <th><?=$current['title_rus']?></th>
+                                    <th><img style="width:200px" src="/images/<?=$media['image']?>" alt=""></th>
                                     <th>
-                                        <a href="<?=ADMIN;?>/current/edit?id=<?=$current['id']?>">
+                                    <?php if ($media['video'] == ''): ?>
+                                    <?php else: ?> 
+                                        <iframe height="220" width="240"  
+                                            src="https://www.youtube.com/embed/<?=$media['video']?>"> 
+                                        </iframe>
+                                    <?php endif; ?> 
+                                    </th>
+                                    <th>
+                                        <a href="<?=ADMIN;?>/current/edit?id=<?=$media['id']?>">
                                             <i class="fa fa-fw fa-edit text-info"></i>
                                         </a>
-                                        <a href="<?=ADMIN;?>/current/delete?id=<?=$current['id']?>">
+                                        <a href="<?=ADMIN;?>/current/delete?id=<?=$media['id']?>">
                                             <i class="fa fa-fw fa-times text-danger delete"></i>
                                         </a>
                                     </th>

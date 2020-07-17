@@ -21,13 +21,6 @@
                     </div>
                 <?php endif; ?>
                 <form action="<?=ADMIN;?>/apartment/edit" method="post" data-toggle="validator">
-                    <div class="box-body">
-                        <div class="form-group">
-                            <label for="title">Sell price</label>
-                            <input type="text" class="form-control" name="sellprice" id="sellprice" value="<?=$apartments->sellprice?>" required>
-                        </div>
-                    </div>
-
                     <select class="form-control" name="status" id="status">
                         <option <?=$apartments->status ? 'selected' : ''?> value="1">Sold</option>
                         <option <?=$apartments->status ? '' : 'selected'?> value="0">For sale</option>

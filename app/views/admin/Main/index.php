@@ -32,7 +32,7 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                     <div class="inner">
-                        <h4>Current works</h4>
+                        <h4>Armores</h4>
                     </div>
                     <div class="icon" style="margin-bottom: 20px;">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -45,7 +45,7 @@
                 <!-- small box -->
                 <div class="small-box bg-blue">
                     <div class="inner">
-                        <h4>Finished projects</h4>
+                        <h4>Media</h4>
                     </div>
                     <div class="icon" style="margin-bottom: 20px;">
                         <i class="nav-icon fas fa-flag-checkered"></i>
@@ -53,20 +53,6 @@
                     <a href="<?=ADMIN;?>/finished" class="small-box-footer">View <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-                <!-- small box -->
-                <div class="small-box bg-danger">
-                    <div class="inner">
-                        <h4>About us</h4>
-                    </div>
-                    <div class="icon" style="margin-bottom: 20px;">
-                        <i class="nav-icon fas fa-text-height"></i>
-                    </div>
-                    <a href="<?=ADMIN;?>/aboutus" class="small-box-footer">View <i class="fas fa-arrow-circle-right"></i></a>
-                </div>
-            </div>
-            <!-- ./col -->
         </div>
         <!-- /.row -->
     </div><!-- /.container-fluid -->

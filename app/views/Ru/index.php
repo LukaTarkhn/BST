@@ -863,7 +863,7 @@ $token2 = Parse($video1,'var token',';');
                                                     <img src="/public/images/gallery/image-icon.png" alt="">
                                                 </div>
                                                 <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
-                                                    <a href="#media-images" class="btn right-icon btn-services btn-mask">Смотреть все фото <i class="icon icon-arrow-right"></i></a>
+                                                    <a href="#media-image" class="btn right-icon btn-services btn-mask">Смотреть все фото <i class="icon icon-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -880,7 +880,7 @@ $token2 = Parse($video1,'var token',';');
                                                     <img src="/public/images/gallery/video-icon.png" alt="">
                                                 </div>
                                                 <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
-                                                    <a href="#media-images" class="btn right-icon btn-services btn-mask">Смотреть все видео <i class="icon icon-arrow-right"></i></a>
+                                                    <a href="#media-video" class="btn right-icon btn-services btn-mask">Смотреть все видео <i class="icon icon-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -891,141 +891,57 @@ $token2 = Parse($video1,'var token',';');
                             ===================================-->
 
                             <div class="services-full-view">
-                                <div class="services-details" id="media-images">
+                                <div class="services-details" id="media-image">
                                     <div class="services-inner relative overflow">
                                         <!-- Content Area -->
                                         <div class="col-xs-12">
-                                            <div class="services-content-outer">
-                                                <div class="line-outer" style="margin-left: 50%;">
-                                                    <div class="line"></div>
-                                                </div>
-                                                <div class="head-image">
-                                                    <img src="/public/images/gallery/1.1-scale.jpg" alt="">
-                                                    <div class="logo">
-                                                        <img src="/public/images/gallery/logo.png" alt="">
-                                                    </div>
-                                                    <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;">
-                                                        <a href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="middle-block">
-                                                    <div class="text-block">
-                                                        <div class="overflow">
-                                                            <div class="pera-outer">
-                                                                <p><strong>Black Sea Towers</strong> — это недвижимость премиум класса в Батуми. Расстояние до берега моря составляет около 800 метров. Комплекс расположен на Аллее Героев напротив стадиона UEFA, поэтому с него всегда будут открываться замечательные панорамные виды на город, горы и море.
-                                                                    <strong> Black Sea Towers</strong> имеет современную архитектуру и классические формы, состоит из двух высотных домов по 37 этажей каждый, в которых покупателям предлагаются 557 квартир различного формата площадью от 29 до 97 кв. м.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="overflow">
-                                                            <div class="pera-outer">
-                                                                <p><strong>Black Sea Towers Batumi</strong> расположен в самом центре делового Батуми на Аллее Героев. Это престижное место в городе, которое пользуется популярностью у туристов и инвесторов. Удачное расположение BlackSea Towers обеспечивает панорамные виды на горы, море, широкая аллея, стадион, танцующие фонтаны. Вид из BlackSea Towers вам никогда не перекроют соседние небоскребы. Он будет вам доступен всегда.
-                                                                    Ключевыми преимуществами комплекса <strong>Black Sea Towers</strong>, является соотношение цена качества. Проект отличает лояльные условия покупки. Цены начинаются от 530$ и застройщик предоставляет внутреннюю беспроцентную рассрочку, на 3 года. Вопросу удобства проживания уделено максимальное внимание, поэтому в комплексе предусмотрена развитая инфраструктура:
-                                                                    6-уровней паркинг на 400 автомобилей SPA & FITNESS CENTER Лаундж-кафе, Фитнес-клуб, Детская игровая площадка, Спортивное поле для отдыха, Футбольное мини-поле.
-                                                                    В комплексе все продумано для мелочей, с целью чтобы обеспечить вам максимальный комфорт проживания в городе.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="overflow">
-                                                            <div class="pera-outer">
-                                                                <h4>КАЧЕСТВЕННЫЕ ОСОБЕННОСТИ ПРОЕКТА:</h4>
-                                                                <ul>
-                                                                    <li>В строительстве используется инновационная опалубочная технология Doka для небоскребов.</li>
-                                                                    <li>Фасад комплекса будет состоять из алюминиевых панелей, коленного стекла в сочетании с витражами.</li>
-                                                                    <li>Окна от немецкой компании REHAU, что говорит о качестве, надежности и неоцененном комфорте для проживания</li>
-                                                                    <li>В комплексе предусмотрены скоростные лифты MITSUBISHI</li>
-                                                                    <li>Стоит отметить, что строительство ведется по мировым стандартам качества ЕС и с соблюдением новых регуляций Грузии от 2019 года.</li>
-                                                                    <li>Комплекс BlackSeaTowers оснащен противопожарной системой безопасности.</li>
-                                                                    <li>Еще одно из важных преимуществ — высота потолков. Потолки, которые позволят вам наслаждаться и чувствовать простор.</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="overflow">
-                                                            <div class="pera-outer">
-                                                                <h4>ИНФРАСТРУКТУРА КОМПЛЕКСА:</h4>
-                                                                <ul>
-                                                                    <li>Благоустроенная озелененная территория</li>
-                                                                    <li>Лобби, рецепция и консьерж-сервис</li>
-                                                                    <li>Открытый и закрытый бассейны</li>
-                                                                    <li>Ресторан, кафе, бар</li>
-                                                                    <li>Спа- и фитнес-центры</li>
-                                                                    <li>Салон красоты</li>
-                                                                    <li>Интернет и кабельное ТВ</li>
-                                                                    <li>Подземный паркинг</li>
-                                                                    <li>Детская площадка</li>
-                                                                    <li>Круглосуточная охрана</li>
-                                                                    <li>Открытая автостоянка</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="overflow m-t-15">
-                                                            <div class="list-outer">
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Высочайшее качество строительства
-                                                                    </div>
-                                                                </div>
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Балкон для всех квартир
-                                                                    </div>
-                                                                </div>
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Зона отдыха
-                                                                    </div>
-                                                                </div>
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Самая большая парковка
-                                                                    </div>
-                                                                </div>
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Спорткомплекс
-                                                                    </div>
-                                                                </div>
-                                                                <div class="list col-sm-6">
-                                                                    <div class="row">
-                                                                        <i class="icon icon-icon-ribbon"></i> Элитный класс
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        <div class="middle-block">
                                                     <div class="overflow">
-                                                        <div class="title-outer">
-                                                            <div class="zoom-gallery">
-                                                                <a href="/public/images/gallery/1.jpg" title="Black Sea Towers">
-                                                                    <img src="/public/images/gallery/1.jpg" width="180" height="180">
-                                                                </a>
-                                                                <a href="/public/images/gallery/5.jpg" title="Black Sea Towers Apartment">
-                                                                    <img src="/public/images/gallery/5.jpg" width="180" height="180">
-                                                                </a>
-                                                                <a href="/public/images/gallery/7.jpg" title="Black Sea Towers Apartment">
-                                                                    <img src="/public/images/gallery/7.jpg" width="180" height="180">
-                                                                </a>
-                                                                <a href="/public/images/gallery/2.jpg" title="Black Sea Towers">
-                                                                    <img src="/public/images/gallery/2.jpg" width="180" height="180">
-                                                                </a>
-                                                                <a href="/public/images/gallery/4.jpg" title="Black Sea Towers">
-                                                                    <img src="/public/images/gallery/4.jpg" width="180" height="180">
-                                                                </a>
-                                                                <a href="/public/images/gallery/6.jpg" title="Black Sea Towers">
-                                                                    <img src="/public/images/gallery/6.jpg" width="180" height="180">
-                                                                </a>
+                                                        <div class="title-outer" style="display: flex; flex-direction: column; justify-content: center;">
+                                                            <div style="margin-top:10%;width: 100%;background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
+                                                                <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
                                                             </div>
-                                                            <div class="real-videos">
-                                                                <a class="popup-youtube-1" style="margin: 0; margin-bottom: 5px;" href="https://www.youtube.com/watch?v=cbL25T3HFFE">
-                                                                    <img src="/public/images/gallery/play-button.png" alt="">
-                                                                </a>
-                                                                <a class="popup-youtube-2" style="margin: 0; margin-left: 5px;" href="https://www.youtube.com/watch?v=yEOFdEDAAhQ">
-                                                                    <img src="/public/images/gallery/play-button.png" alt="">
-                                                                </a>
+                                                            <div class="zoom-gallery" style="width: 80%; flex-direction: row-reverse;">
+                                                                <?php foreach ($media as $image): ?>
+                                                                        <?php if ($image['image'] == ''): ?>
+                                                                        <?php else: ?>
+                                                                            <a href="/public/images/<?=$image['image']?>" title="Black Sea Towers">
+                                                                                <img src="/public/images/<?=$image['image']?>" width="180" height="180">
+                                                                            </a>
+                                                                        <?php endif; ?> 
+                                                                <?php endforeach; ?>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> <!-- End: .services-content-outer -->
+                                        </div> <!-- End: Content Area -->
+                                    </div> <!-- End: .services-inner -->
+                                </div> <!-- End: .services-details -->
+                            </div> <!-- End: .services-full-view -->
+                            <div class="services-full-view">
+                                <div class="services-details" id="media-video">
+                                    <div class="services-inner relative overflow">
+                                        <!-- Content Area -->
+                                        <div class="col-xs-12">
+                                            <div class="middle-block">
+                                                <div class="overflow">
+                                                        <div class="title-outer" style="display: flex; justify-content: center;">
+                                                            <div style="width: 80%; margin-top: 12%;">
+                                                                <div style="background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
+                                                                    <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
+                                                                </div>
+                                                                <?php foreach ($media as $video): ?>
+                                                                    <?php if ($video['video'] == ''): ?>
+                                                                    <?php else: ?> 
+                                                                        <iframe height="220" width="240"  
+                                                                            src="https://www.youtube.com/embed/<?=$video['video']?>"> 
+                                                                        </iframe>
+                                                                    <?php endif; ?> 
+                                                                <?php endforeach; ?>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                         </div> <!-- End: Content Area -->
                                     </div> <!-- End: .services-inner -->
                                 </div> <!-- End: .services-details -->

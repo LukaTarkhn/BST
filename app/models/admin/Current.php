@@ -9,17 +9,12 @@ use app\models\AppModel;
 class Current extends  AppModel
 {
     public $attributes = [
-        'title_geo' => '',
-        'content_geo' => '',
-        'title_eng' => '',
-        'content_eng' => '',
-        'title_rus' => '',
-        'content_rus' => ''
+        'video' => ''
     ];
 
     public function getImg(){
         if(!empty($_SESSION['single'])){
-            $this->attributes['img'] = $_SESSION['single'];
+            $this->attributes['image'] = $_SESSION['single'];
             unset($_SESSION['single']);
         }
     }

@@ -89,34 +89,7 @@
                         <a href="<?=ADMIN;?>/current" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>
-                                Current works
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item has-treeview menu-open">
-                        <a href="<?=ADMIN;?>/finished" class="nav-link">
-                            <i class="nav-icon fas fa-flag-checkered"></i>
-                            <p>
-                                Finished projects
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item has-treeview menu-open">
-                        <a href="<?=ADMIN;?>/offers" class="nav-link">
-                            <i class="nav-icon fas fa-balance-scale-left"></i>
-                            <p>
-                                Offers
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item has-treeview menu-open">
-                        <a href="<?=ADMIN;?>/aboutus" class="nav-link">
-                            <i class="nav-icon fas fa-text-height"></i>
-                            <p>
-                                About us
+                                Media
                             </p>
                         </a>
                     </li>

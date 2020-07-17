@@ -11,6 +11,7 @@ class RuController extends AppController {
         $currentWorks = \R::find('current', 'ORDER BY id DESC LIMIT 8');
         $floors = \R::find('floors');
         $offers = \R::find('offers');
+        $media = \R::find('media');
         $apartments = \R::findAll('apartments2');
         
         $this->setMeta(
@@ -21,7 +22,7 @@ class RuController extends AppController {
             'lukatarkhnishvili.com'
         );
 
-        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'offers', 'apartments'));
+        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'offers', 'apartments', 'media'));
 
         setcookie('languages', 'RU', time() + 3600 * 24, '/');
     }
