@@ -55,7 +55,7 @@
       scrollOverflow:     scrollOverflow,
       scrollBar:          false,
       keyboardScrolling:  true,
-      scrollingSpeed:     900,
+      scrollingSpeed:     800,
       verticalCentered:   true,
       easingcss3:         'cubic-bezier(0.785, 0.135, 0.150, 0.860)',
       css3:               true,
