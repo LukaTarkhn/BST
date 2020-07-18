@@ -763,7 +763,7 @@ $token2 = Parse($video1,'var token',';');
                                 </div>
                                 <div class="overflow">
                                     <div class="section-heading-outer p-l-50 p-r-50">
-                                        <h2 class="section-heading">СОСТОЯНИЕ СДАЧИ АПАРТАМЕНТОВ</h2>
+                                        <h2 class="section-heading">Состояние сдачи апартаментов</h2>
                                     </div>
                                 </div>
                             </div>
@@ -898,9 +898,6 @@ $token2 = Parse($video1,'var token',';');
                                         <div class="middle-block">
                                                     <div class="overflow">
                                                         <div class="title-outer" style="display: flex; flex-direction: column; justify-content: center;">
-                                                            <div style="margin-top:10%;width: 100%;background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
-                                                                <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
-                                                            </div>
                                                             <div class="zoom-gallery" style="width: 80%; flex-direction: row-reverse;">
                                                                 <?php foreach ($media as $image): ?>
                                                                         <?php if ($image['image'] == ''): ?>
@@ -910,6 +907,9 @@ $token2 = Parse($video1,'var token',';');
                                                                             </a>
                                                                         <?php endif; ?> 
                                                                 <?php endforeach; ?>
+                                                            </div>
+                                                            <div style="margin-top:15%;width: 100%;background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
+                                                                <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -924,12 +924,9 @@ $token2 = Parse($video1,'var token',';');
                                         <!-- Content Area -->
                                         <div class="col-xs-12">
                                             <div class="middle-block">
-                                                <div class="overflow">
-                                                        <div class="title-outer" style="display: flex; justify-content: center;">
-                                                            <div style="width: 80%; margin-top: 12%;">
-                                                                <div style="background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
-                                                                    <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
-                                                                </div>
+                                                <div class="overflow" style="width: 100%">
+                                                        <div class="title-outer" style="display: flex; justify-content: center; width:100%">
+                                                            <div style="width: 80%; margin-top: 20%;">
                                                                 <?php foreach ($media as $video): ?>
                                                                     <?php if ($video['video'] == ''): ?>
                                                                     <?php else: ?> 
@@ -938,6 +935,10 @@ $token2 = Parse($video1,'var token',';');
                                                                         </iframe>
                                                                     <?php endif; ?> 
                                                                 <?php endforeach; ?>
+                                                                <br>
+                                                                <div style="background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
+                                                                    <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
