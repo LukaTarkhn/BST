@@ -854,16 +854,16 @@ $token2 = Parse($video1,'var token',';');
                                     <div class="image-block" style="margin-right: 20px;">
                                         <div class="overflow">
                                             <div class="title-outer head-image">
-                                                <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
-                                                    <a href="#media-images" class="btn right-icon btn-services btn-mask">ФОТО</a>
+                                                <div style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
+                                                    <a href="/photos" class="btn">ФОТО</a>
                                                 </div>
                                                 <img style="height: 380px;" src="/public/images/gallery/media-img.jpg" alt="">
                                                 <div class="logo" style="display:flex; flex-direction: column;top: 40px;">
                                                     <img src="/public/images/gallery/logo.png" alt="">
                                                     <img src="/public/images/gallery/image-icon.png" alt="">
                                                 </div>
-                                                <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
-                                                    <a href="#media-image" class="btn right-icon btn-services btn-mask">Смотреть все фото <i class="icon icon-arrow-right"></i></a>
+                                                <div style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
+                                                    <a href="/photos" class="btn">Смотреть все фото <i class="icon icon-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -889,35 +889,6 @@ $token2 = Parse($video1,'var token',';');
                             </div>
                             <!-- End: .each-services-outer
                             ===================================-->
-
-                            <div class="services-full-view">
-                                <div class="services-details" id="media-image">
-                                    <div class="services-inner relative overflow">
-                                        <!-- Content Area -->
-                                        <div class="col-xs-12">
-                                        <div class="middle-block">
-                                                    <div class="overflow">
-                                                        <div class="title-outer" style="display: flex; flex-direction: column; justify-content: center;">
-                                                            <div class="zoom-gallery" style="width: 80%; flex-direction: row-reverse;">
-                                                                <?php foreach ($media as $image): ?>
-                                                                        <?php if ($image['image'] == ''): ?>
-                                                                        <?php else: ?>
-                                                                            <a href="/public/images/<?=$image['image']?>" title="Black Sea Towers">
-                                                                                <img src="/public/images/<?=$image['image']?>" width="180" height="180">
-                                                                            </a>
-                                                                        <?php endif; ?> 
-                                                                <?php endforeach; ?>
-                                                            </div>
-                                                            <div style="margin-top:15%;width: 100%;background-color: rgba(28, 9, 9, 0.80); border-radius: 10px;padding: 10px;margin-bottom: 10px">
-                                                                <a style="width:100%;font-size:25px" href="#" class="btn btn-services-back btn-mask"><i class="icon icon-arrow-carrot-left-alt2"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                        </div> <!-- End: Content Area -->
-                                    </div> <!-- End: .services-inner -->
-                                </div> <!-- End: .services-details -->
-                            </div> <!-- End: .services-full-view -->
                             <div class="services-full-view">
                                 <div class="services-details" id="media-video">
                                     <div class="services-inner relative overflow">

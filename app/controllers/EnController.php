@@ -11,6 +11,7 @@ class EnController extends AppController {
         $currentWorks = \R::find('current', 'ORDER BY id DESC LIMIT 8');
         $floors = \R::find('floors');
         $offers = \R::find('offers');
+        $media = \R::find('media');
         $apartments = \R::findAll('apartments2');
 
         $this->setMeta(
@@ -21,13 +22,18 @@ class EnController extends AppController {
             'lukatarkhnishvili.com'
         );
 
-        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'offers', 'apartments'));
+        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'offers', 'apartments', 'media'));
 
         setcookie('languages', 'EN', time() + 3600 * 24, '/');
     }
 
-    public function  conditionAction() {
-        $this->setMeta('Real Palace Black Sea Towers APARTMENT HANDOVER CONDITIONS', 'utf-8','APARTMENT HANDOVER CONDITIONS', 'condition, white carcase', 'lukatarkhnishvili.com');
-    }
+    public function  photosAction() {
+        $this->setMeta(
+            'black sea towers media',
+            'utf-8',
+            'black sea towers media, photos',
+            'BST, black sea towers',
+            'lukatarkhnishvili.com'
+        );}
 
 }

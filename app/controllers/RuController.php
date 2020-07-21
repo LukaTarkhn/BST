@@ -27,8 +27,14 @@ class RuController extends AppController {
         setcookie('languages', 'RU', time() + 3600 * 24, '/');
     }
 
-    public function  conditionAction() {
-        $this->setMeta('Real Palace Black Sea Towers УСЛОВИЯ СДАЧИ АПАРТАМЕНТОВ', 'utf-8','УСЛОВИЯ СДАЧИ АПАРТАМЕНТОВ', 'УСЛОВИЯ, СДАЧИ, АПАРТАМЕНТОВ', 'lukatarkhnishvili.com');
+    public function  photosAction() {
+        $this->setMeta(
+            'black sea towers media',
+            'utf-8',
+            'black sea towers media, photos',
+            'BST, black sea towers',
+            'lukatarkhnishvili.com'
+        ); 
     }
 
 }
