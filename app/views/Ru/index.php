@@ -708,8 +708,8 @@ $token2 = Parse($video1,'var token',';');
                                                                 <a href="/public/images/gallery/2.jpg" title="Black Sea Towers">
                                                                     <img src="/public/images/gallery/2.jpg" width="180" height="180">
                                                                 </a>
-                                                                <a href="/public/images/gallery/4.jpg" title="Black Sea Towers">
-                                                                    <img src="/public/images/gallery/4.jpg" width="180" height="180">
+                                                                <a href="/public/images/gallery/3.jpg" title="Black Sea Towers">
+                                                                    <img src="/public/images/gallery/3.jpg" width="180" height="180">
                                                                 </a>
                                                                 <a href="/public/images/gallery/6.jpg" title="Black Sea Towers">
                                                                     <img src="/public/images/gallery/6.jpg" width="180" height="180">
