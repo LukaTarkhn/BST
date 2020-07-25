@@ -539,7 +539,7 @@ $token2 = Parse($video1,'var token',';');
                                                                 <strong>Black Sea Towers</strong> имеет современную архитектуру и классические формы, состоит из двух высотных домов по 40 этажей каждый, в которых покупателям предлагаются 557 квартир различного формата площадью от 29 до 97 кв. м.
                                                             </span>
                                                 <div class="real-videos">
-                                                    <a class="popup-youtube-1" href="https://www.youtube.com/watch?v=cbL25T3HFFE">
+                                                    <a class="popup-youtube-1" href="https://www.youtube.com/watch?v=1Lx22eauXKA">
                                                         <img src="/public//images/gallery/play-button.png" alt="">
                                                     </a>
                                                     <a class="popup-youtube-2" href="https://www.youtube.com/watch?v=yEOFdEDAAhQ">
@@ -716,7 +716,7 @@ $token2 = Parse($video1,'var token',';');
                                                                 </a>
                                                             </div>
                                                             <div class="real-videos">
-                                                                <a class="popup-youtube-1" style="margin: 0; margin-bottom: 5px;" href="https://www.youtube.com/watch?v=cbL25T3HFFE">
+                                                                <a class="popup-youtube-1" style="margin: 0; margin-bottom: 5px;" href="https://www.youtube.com/watch?v=1Lx22eauXKA">
                                                                     <img src="/public/images/gallery/play-button.png" alt="">
                                                                 </a>
                                                                 <a class="popup-youtube-2" style="margin: 0; margin-left: 5px;" href="https://www.youtube.com/watch?v=yEOFdEDAAhQ">
@@ -970,13 +970,13 @@ $token2 = Parse($video1,'var token',';');
                                                         <div class="panel-heading">
                                                             <h4 class="panel-title">
                                                                 <a data-toggle="collapse" data-parent="#" href="#col-one">
-                                                                    Collapse item #1
+                                                                Возможно ли перепланировка?
                                                                 </a>
                                                             </h4>
                                                         </div>
                                                         <div id="col-one" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                answer
+                                                                Да, вы можете сделать перепланировку внутренных стен по своему проекту
                                                             </div>
                                                         </div>
 
@@ -987,13 +987,29 @@ $token2 = Parse($video1,'var token',';');
                                                         <div class="panel-heading">
                                                             <h4 class="panel-title">
                                                                 <a data-toggle="collapse" data-parent="#" href="#col-two">
-                                                                    Collapse item #2
+                                                                    Есть ли рассрочка?
                                                                 </a>
                                                             </h4>
                                                         </div>
                                                         <div id="col-two" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                answer
+                                                                Да есть, внутренняя без процентная рассрочка до 30 месяца. Первый взнос 20%
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="panel">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#" href="#col-tree">
+                                                                    Облагается ли недвижимость налогом
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="col-tree" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                Нет
                                                             </div>
 
                                                         </div>
@@ -1003,14 +1019,14 @@ $token2 = Parse($video1,'var token',';');
                                                     <div class="panel">
                                                         <div class="panel-heading">
                                                             <h4 class="panel-title">
-                                                                <a data-toggle="collapse" data-parent="#" href="#col-three">
-                                                                    Collapse item #3
+                                                                <a data-toggle="collapse" data-parent="#" href="#col-four">
+                                                                    Отвечает ли проект требованиям сейсмоустойчивости?
                                                                 </a>
                                                             </h4>
                                                         </div>
-                                                        <div id="col-three" class="panel-collapse collapse">
+                                                        <div id="col-four" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                answer
+                                                                Все проекты, строящиеся в Грузии, отвечают требованиям сейсмоустойчивости, иначе проект невозможно согласовать с муниципалитетом.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1027,34 +1043,17 @@ $token2 = Parse($video1,'var token',';');
                                                     <div class="panel">
                                                         <div class="panel-heading">
                                                             <h4 class="panel-title">
-                                                                <a data-toggle="collapse" data-parent="#" href="#col-four">
-                                                                    Collapse item #1
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div id="col-four" class="panel-collapse collapse">
-                                                            <div class="panel-body">
-                                                                answer
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                    <!-- end of panel -->
-
-                                                    <div class="panel">
-                                                        <div class="panel-heading">
-                                                            <h4 class="panel-title">
                                                                 <a data-toggle="collapse" data-parent="#" href="#col-five">
-                                                                    Collapse item #2
+                                                                    Будет ли управление квартирами?
                                                                 </a>
                                                             </h4>
                                                         </div>
                                                         <div id="col-five" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                answer
+                                                                компания Black Sea Towers предлагает управление апартаментами через личный кабинет: оплата коммунальных услуг, отчетность по доходу, вывод заработка, источники привлечения клиентов, онлайн-синхронизатор с сайтами аренды апартаментов (Airbnb, Booking.com и более ста сайтов по всему миру). Вся эта информация по вашим апартаментам будет прозрачна для вас и доступна онлайн.
                                                             </div>
-
                                                         </div>
+
                                                     </div>
                                                     <!-- end of panel -->
 
@@ -1062,13 +1061,30 @@ $token2 = Parse($video1,'var token',';');
                                                         <div class="panel-heading">
                                                             <h4 class="panel-title">
                                                                 <a data-toggle="collapse" data-parent="#" href="#col-six">
-                                                                    Collapse item #3
+                                                                    В каком состоянии сдаются квартиры?
                                                                 </a>
                                                             </h4>
                                                         </div>
                                                         <div id="col-six" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                answer
+                                                                Квартиры сдаются: в черном и белом каркасе и "под ключ"
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- end of panel -->
+
+                                                    <div class="panel">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#" href="#col-seven">
+                                                                    Какие документы должны быть предоставлены клиентом для покупки квартиры?
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="col-seven" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                Иностранные граждане могут приобретать в собственность недвижимость Грузии независимо от того, гражданином какой страны они является. Право собственности закрепляется регистрацией договора в доме юстиции и гарантируется конституцией Грузии. Сделка по недвижимости регистрируется в Публичном реестре Грузии. При покупке необходимо иметь только заграничный паспорт. Срок оформления сделки в реестре от 1 часа до 4 рабочих дней с оплатой госпошлины в размере 105 лари.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1253,7 +1269,7 @@ $token2 = Parse($video1,'var token',';');
                                             <div class="col-xs-12">
                                                 <div class="input-outer">
                                                     <div class="group relative">
-                                                        <input name="name" class="contact-name form-control" id="contact-name" type="text"  required="">
+                                                        <input name="phone" class="contact-name form-control" id="phone" type="text"  required="">
                                                         <label class="input-label" for="contact-name">
                                                             <span class="label-text">Телефон</span>
                                                         </label>
@@ -1264,7 +1280,7 @@ $token2 = Parse($video1,'var token',';');
                                             <div class="col-xs-12">
                                                 <div class="input-outer ">
                                                     <div class="group relative">
-                                                        <input name="name" class="contact-email form-control" id="contact-email" type="email"  required="">
+                                                        <input name="email" class="contact-email form-control" id="email" type="email"  required="">
                                                         <label class="input-label" for="contact-email">
                                                             <span class="label-text">Емайл</span>
                                                         </label>
@@ -1276,7 +1292,7 @@ $token2 = Parse($video1,'var token',';');
                                             <div class="col-xs-12">
                                                 <div class="input-outer ">
                                                     <div class="group relative">
-                                                        <textarea class="contact-message form-control" id="contact-message" rows="3" required=""></textarea>
+                                                        <textarea class="contact-message form-control" name="message" id="message" rows="3" required=""></textarea>
                                                         <label class="input-label" for="contact-message">
                                                             <span class="label-text">Сообщение</span>
                                                         </label>

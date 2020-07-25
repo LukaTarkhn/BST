@@ -1,16 +1,16 @@
-Sitemap: https://realpalace.ge/sitemap.html
-Sitemap: https://realpalace.ge/sitemap.xml
+Sitemap: https://blackseatowers.com/sitemap.html
+Sitemap: https://blackseatowers.com/sitemap.xml
 
 User-Agent: *
 Disallow: 
-Disallow: /realpalace.ge/admin
-Allow: /realpalace.ge
-Allow: /realpalace.ge/ka
-Allow: /realpalace.ge/en
-Allow: /realpalace.ge/ru
-Allow: /realpalace.ge/ka/condition
-Allow: /realpalace.ge/en/condition
-Allow: /realpalace.ge/ru/condition
-Allow: /realpalace.ge/sitemap.html
-Allow: /realpalace.ge/sitemap.xml
+Disallow: /blackseatowers.com/admin
+Allow: /blackseatowers.com
+Allow: /blackseatowers.com/ka
+Allow: /blackseatowers.com/en
+Allow: /blackseatowers.com/ru
+Allow: /blackseatowers.com/ka/condition
+Allow: /blackseatowers.com/en/condition
+Allow: /blackseatowers.com/ru/condition
+Allow: /blackseatowers.com/sitemap.html
+Allow: /blackseatowers.com/sitemap.xml
 

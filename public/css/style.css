@@ -3,6 +3,41 @@
  *  Defult CSS 
  * ===============================
  */
+ @font-face {
+  font-family: CITI-MT-Regular;
+  src: url(/fonts/CITI-MT-Regular.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CITI-MT-Medium;
+  src: url(/fonts/CITI-MT-Medium.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CITI-MT-Bold;
+  src: url(/fonts/CITI-MT-Bold.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CITI-Nus-Regular;
+  src: url(/fonts/CITI-Nus-Regular.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CITI-Nus-Medium;
+  src: url(/fonts/CITI-Nus-Medium.otf) format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CITI-Nus-Bold;
+  src: url(/fonts/CITI-Nus-Bold.otf) format("opentype");
+  font-display: swap;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.9);

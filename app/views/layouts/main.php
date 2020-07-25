@@ -4,20 +4,20 @@
 
 <head>
     <?php if ($lang['code'] === 'GE'): ?>
-    <link rel="alternate" hreflang="en" href="https://blackseatowers.ge/en" />
-    <link rel="alternate" hreflang="ru" href="https://blackseatowers.ge/ru" />
+    <link rel="alternate" hreflang="en" href="https://blackseatowers.com/en" />
+    <link rel="alternate" hreflang="ru" href="https://blackseatowers.com/ru" />
 
-    <link rel="canonical" href="https://blackseatowers.ge/ka" />
+    <link rel="canonical" href="https://blackseatowers.com/ka" />
     <?php elseif($lang['code'] === 'EN'):  ?>
-        <link rel="alternate" hreflang="ka" href="https://blackseatowers.ge/ka" />
-        <link rel="alternate" hreflang="ru" href="https://blackseatowers.ge/ru" />
+        <link rel="alternate" hreflang="ka" href="https://blackseatowers.com/ka" />
+        <link rel="alternate" hreflang="ru" href="https://blackseatowers.com/ru" />
 
-        <link rel="canonical" href="https://blackseatowers.ge/en" />
+        <link rel="canonical" href="https://blackseatowers.com/en" />
     <?php elseif($lang['code'] === 'RU'):  ?>
-        <link rel="alternate" hreflang="ka" href="https://blackseatowers.ge/ka" />
-        <link rel="alternate" hreflang="en" href="https://blackseatowers.ge/en" />
+        <link rel="alternate" hreflang="ka" href="https://blackseatowers.com/ka" />
+        <link rel="alternate" hreflang="en" href="https://blackseatowers.com/en" />
 
-        <link rel="canonical" href="https://blackseatowers.ge/ru" />
+        <link rel="canonical" href="https://blackseatowers.com/ru" />
     <?php endif;  ?>
 
     <!-- TITLE AND META -->
@@ -26,7 +26,7 @@
     <meta property="og:site_name" content="Black Sea Towers - Real Palace - სამშენებლო კომპანია" />
     <meta property="og:title" content="Black Sea Towers" />
     <meta property="og:image" content="/public/images/gallery/headermapped.jpg" />
-    <meta property="og:url" content="https://blackseatowers.ge" />
+    <meta property="og:url" content="https://blackseatowers.com" />
     <meta property="og:type" content="website" />
     <meta name="resource-type" content="document"/>
     <meta name="google-site-verification" content="0vNAVT43vkQ4Vh5Ma7v4iCW-r4cCCSKFj-QDszxddKA" />
@@ -58,17 +58,17 @@
     <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
 
     <!-- Image Slider -->
-    <link rel="stylesheet" href="/public/css/plagin-css/owl.carousel.css">
+    <link rel="stylesheet" href="/public/css/plagin-css/owl.carousel.min.css">
 
     <!-- Full Page Scroll -->
-    <link rel="stylesheet" href="/public/css/plagin-css/jquery.fullPage.css">
+    <link rel="stylesheet" href="/public/css/plagin-css/jquery.fullPage.min.css">
 
     <!-- FONT ICONS -->
-    <link rel="stylesheet" href="/public/icons/rik-icons/styles.css">
+    <link rel="stylesheet" href="/public/icons/rik-icons/styles.min.css">
 
     <!--   COUSTOM CSS link  -->
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="/public/css/responsive.css">
+    <link rel="stylesheet" href="/public/css/style.min.css">
+    <link rel="stylesheet" href="/public/css/responsive.min.css">
 
     <!--[if lt IE 9]>
     <script src="/public/js/plagin-js/html5shiv.js"></script>
@@ -77,10 +77,10 @@
 
 
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="/public/js/plagin-js/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="/public/js/plagin-js/magnific-popup/magnific-popup.min.css">
 
     <!-- image Compare CSS file -->
-    <link rel="stylesheet" href="/public/js/plagin-js/image-compare/images-compare.css">
+    <link rel="stylesheet" href="/public/js/plagin-js/image-compare/images-compare.min.css">
 </head>
 <body>
 
@@ -89,20 +89,20 @@
 
     <!-- SCRIPTS
     ========================================-->
-    <script src="/public/js/plagin-js/jquery-1.11.3.js"></script>
-    <script src="/public/js/plagin-js/preloader.js"></script>
-    <script src="/public/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/public/js/plagin-js/plagin.js"></script>
-    <script src="/public/js/plagin-js/hammer2.0.8.js"></script>
+    <script src="/public/js/plagin-js/jquery-1.11.3.min.js"></script>
+    <script src="/public/js/plagin-js/preloader.min.js"></script>
+    <script src="/public/bootstrap/js/bootstrap.min.min.js"></script>
+    <script src="/public/js/plagin-js/plagin.min.js"></script>
+    <script src="/public/js/plagin-js/hammer2.0.8.min.js"></script>
     <!-- Custom Script
     ==========================================-->
-    <script src="/public/js/custom-scripts.js"></script>
+    <script src="/public/js/custom-scripts.min.js"></script>
 
     <!-- Magnific Popup core JS file -->
-    <script src="/public/js/plagin-js/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="/public/js/plagin-js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Image Compare JS file -->
-    <script src="/public/js/plagin-js/image-compare/jquery.images-compare.js"></script>
+    <script src="/public/js/plagin-js/image-compare/jquery.images-compare.min.js"></script>
     <script type="text/javascript">
         $(function () {
             var imagesCompareElement = $('.js-img-compare').imagesCompare();
