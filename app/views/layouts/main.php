@@ -91,7 +91,7 @@
     ========================================-->
     <script src="/public/js/plagin-js/jquery-1.11.3.min.js"></script>
     <script src="/public/js/plagin-js/preloader.min.js"></script>
-    <script src="/public/bootstrap/js/bootstrap.min.min.js"></script>
+    <script src="/public/bootstrap/js/bootstrap.min.js"></script>
     <script src="/public/js/plagin-js/plagin.min.js"></script>
     <script src="/public/js/plagin-js/hammer2.0.8.min.js"></script>
     <!-- Custom Script
