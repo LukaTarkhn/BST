@@ -857,7 +857,7 @@ $token2 = Parse($video1,'var token',';');
                                                 <div style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
                                                     <a href="/photos" class="btn">ФОТО</a>
                                                 </div>
-                                                <img style="height: 380px;" src="/public/images/gallery/media-img.jpg" alt="">
+                                                <img style="max-height: 380px;" src="/public/images/gallery/media-img.jpg" alt="">
                                                 <div class="logo" style="display:flex; flex-direction: column;top: 40px;">
                                                     <img src="/public/images/gallery/logo.png" alt="">
                                                     <img src="/public/images/gallery/image-icon.png" alt="">
@@ -874,7 +874,7 @@ $token2 = Parse($video1,'var token',';');
                                                 <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
                                                     <a href="#media-images" class="btn right-icon btn-services btn-mask">ВИДЕО</a>
                                                 </div>
-                                                <img style="height: 380px;" src="/public/images/gallery/media-vde.jpg" alt="">
+                                                <img style="max-height: 380px;" src="/public/images/gallery/media-vde.jpg" alt="">
                                                 <div class="logo" style="display:flex; flex-direction: column; top: 40px;">
                                                     <img src="/public/images/gallery/logo.png" alt="">
                                                     <img src="/public/images/gallery/video-icon.png" alt="">

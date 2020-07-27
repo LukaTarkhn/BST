@@ -527,7 +527,7 @@ $token2 = Parse($video1,'var token',';');
                                     <div class="section-heading-outer p-l-50 p-r-50">
                                         <h2 class="section-heading">Black Sea Towers</h2>
                                         <h3 class="section-heading min-heder">
-                                            ელიტარული საცხოვრებელი კომპლექსი, კომპანიისგან <a href="https://realpalace.ge">Real Palace</a></h3>
+                                            ელიტარული საცხოვრებელი კომპლექსი, კომპანია <a href="https://realpalace.ge">Real Palace</a>-სგან</h3>
                                     </div>
                                 </div>
                             </div>
@@ -830,7 +830,7 @@ $token2 = Parse($video1,'var token',';');
                                                 <div style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
                                                     <a href="/photos" class="btn">ფოტოები</a>
                                                 </div>
-                                                <img style="height: 380px;" src="/public/images/gallery/media-img.jpg" alt="">
+                                                <img style="max-height: 380px;" src="/public/images/gallery/media-img.jpg" alt="">
                                                 <div class="logo" style="display:flex; flex-direction: column;top: 40px;">
                                                     <img src="/public/images/gallery/logo.png" alt="">
                                                     <img src="/public/images/gallery/image-icon.png" alt="">
@@ -847,7 +847,7 @@ $token2 = Parse($video1,'var token',';');
                                                 <div class="back-button-outer overflow" style="background-color: rgba(28, 9, 9, 0.80); padding: 10px;">
                                                     <a href="#media-images" class="btn right-icon btn-services btn-mask">ვიდეოები</a>
                                                 </div>
-                                                <img style="height: 380px;" src="/public/images/gallery/media-vde.jpg" alt="">
+                                                <img style="max-height: 380px;" src="/public/images/gallery/media-vde.jpg" alt="">
                                                 <div class="logo" style="display:flex; flex-direction: column; top: 40px;">
                                                     <img src="/public/images/gallery/logo.png" alt="">
                                                     <img src="/public/images/gallery/video-icon.png" alt="">

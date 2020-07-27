@@ -55,6 +55,9 @@
   }
 }
 @media (max-width: 454px) {
+  .head-image .logo img {
+    width: 100px;
+  }
   .floor-pick {
     width: 190vw;
     margin-left: -45vw;
