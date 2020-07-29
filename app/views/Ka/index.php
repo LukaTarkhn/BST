@@ -576,7 +576,7 @@ $token2 = Parse($video1,'var token',';');
                                             <span>სართული</span>
                                         </div>
                                         <div class="number-info--block">
-                                            <span>530$</span>
+                                            <span>1630 ₾</span>
                                             <span>მინიმალური ფასი</span>
                                         </div>
                                         <div class="number-info--block">
