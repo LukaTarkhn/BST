@@ -283,37 +283,7 @@ $token2 = Parse($video1,'var token',';');
             ====================================-->
             <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1" data-heading="">
                 <div class="inner-container ">
-                    <div class="header-logo">
-                        <img src="/public/images/gallery/logo.png" alt="">
-                    </div>
                     <div class="needed-btns">
-                        <div class="livecams">
-                            <div class="real-videos">
-                                <a class="popup-cam-1" href="https://www.ipcamlive.com/player/player.php?alias=5edfd00ed0cba&autoplay=1&token=<?php echo $token1; ?>">
-                                    <img src="/public/images/gallery/live1.png" alt="">
-                                </a>
-                                <a class="popup-cam-2" href="https://www.ipcamlive.com/player/player.php?alias=5ee1f7e469e75&autoplay=1&token=<?php echo $token1; ?>">
-                                    <img src="/public/images/gallery/live2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="soc-buttons">
-                            <a target="_blank" href="https://www.facebook.com/BuildingCompanyREALPALACE/">
-                                <i class="icon icon-social-facebook"></i></a>
-                            <a target="_blank" href="https://www.instagram.com/black_sea_towers/">
-                                <i class="icon icon-social-instagram"></i></a>
-                        </div>
-                        <div class="pick-language">
-                            <a href="/ka">
-                                <img src="/public/images/gallery/GE.png" alt="">
-                            </a>
-                            <a href="/ru">
-                                <img src="/public/images/gallery/RU.png" alt="">
-                            </a>
-                            <a href="/en">
-                                <img src="/public/images/gallery/EN.png" alt="">
-                            </a>
-                        </div>
                         <div class="livecams" style="margin-top: 70px">
                             <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
                                 <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
