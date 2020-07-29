@@ -1217,7 +1217,8 @@ section.section {
   background-color: #171717;
 }
 .floor-pick {
-  line-height: 0;
+  width: 70vw;
+  margin-left: 15vw;
 }
 .home-section .heading-outer {
   position: relative;
