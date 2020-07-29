@@ -68,7 +68,7 @@
 
         // console.log(index);
 
-        if( index !== 1 ) {
+        if( index !== 0 ) {
           $('.navbar-top-js').addClass('navbar-home');
           $('#fp-nav').fadeIn(10).addClass('show-nav');
         } 
