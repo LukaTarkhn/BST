@@ -714,6 +714,181 @@ $token2 = Parse($video1,'var token',';');
                         </div>
                     </div>
                 </div>
+                <div class="main-conteiner" style="width:100%;justify-content:center;margin-bottom:100px">
+                    <?php if ($apartment->kvmeter == 50.1 || $apartment->kvmeter == 61.6 || $apartment->kvmeter == 67.2 || $apartment->kvmeter == 58.8 ): ?>
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1S8sEk4lE4iYYG39gh65S7v3jRJRe0L1V/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/17pNSk5TBD5mTIP0YJlaW113jHTxLbADC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1Of9S6p1gHTyDcXnswr2zwQpSJsxMCB-7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/106h4_xMvrBUyAf1_JUHvob-HrWC0OcCA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1e-6xDd9Gt3ZT2DfUj4xpRO3EwsIdRSB1/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1xBnvigVcPR2N5pByHnHv3m4ow-cMTPPe/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LCHrl9jjeKocnHqIM7TPbZaNNxDi693o/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1ilCJPe3KfeKdSFNeDAMKG6hhPaHLisbj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1o5Oz-suq3EAFpVQ9qVQPD93ZRDeEeEMV/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 86.2): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/14q8hnjzRE7FMunXMkarRaOur1sa_l9RM/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1sUUUx9PuBZg9EyzTPKU0y_ll55EcCcH0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1TQdRDzfcQlfTZyTbiXdPt3_MGPtqE6yj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1vQx1d37GVUbu5YPc2Vi5nzHEEuT6o07r/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1V3xFJOz9lwFW0F28THXOfigKkZSUR9PC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1HOi5wVBd5H9UH8GK6q4Vr0azzvvbYMuh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1WysN_3Q07O1P_8ijtm19R2nAncQNEKZ_/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1DdtkhIoj27ca1p8FzhdlWYsKXRg0dWD7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 83 || $apartment->kvmeter == 59.8): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1j1lWZfms_WAh4r8XPyJDdFUFyutmrbHk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1fQqMJpIJdeVeQO2WQAKV8xZOF5NFPyH3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14|| $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1mCnl3Nwj3Q1R6p6l9ULtpB-367Kzr4rG/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/11rY1hn8V7KrbRq_VDStanJ-p2iVKpYLH/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/12JqKa4s5RMvo9KmCO3xBFVNQyBSQRA6A/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1P5o4v2lGoSsAlYRMuO6g7V5pTNW_r-ya/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1QF7s-q-nCp8lz17SKIkfxAp7cA43hmTA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1a9A9d4dR5vNfwhyeWBF1eYO0uLJknpgv/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 79.7): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1m2wUWwkq1bDWSrInso4UIYljD4ks1icr/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1paSuPYWAf6sQXH-yhQqKhXXJIZigYPyZ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/18NcNS9ncMfAaWPROCbrWwyMC8EOO4vr3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1RE2SdGlKz3XiRF6XuMOmQctAZ6bzByWW/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1sATelDyUa3SofdlpXeCjU25Cp-KXf8Nf/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1drxHvyjOG-_3eaF_07eMnwJUDpWQkVGs/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LfMCDD0z5Xp9z7_2ZuPaOBg2BEHbWQa0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1-8brz--JFqsVdzpPqEZ3d_LaaUwj8yuI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1K00lzqaVPc9OmyfKlC0sWFgolw7X_Hv2/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 37.8 || $apartment->kvmeter == 36.8 || $apartment->kvmeter == 50.5 || $apartment->kvmeter == 55.8 || $apartment->kvmeter == 81.8 || $apartment->kvmeter == 55.9 || $apartment->kvmeter == 37.4 || $apartment->kvmeter == 62.4): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1MHkIYnth765277h-CedmOq0NVN67Hhnm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1nghQRHAMbmJ4a4UMxjaLTqet1OPaAoJI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1PPIAA9WObVact2Ys0HGkGOEtI5zb28t7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1Yj3Rt3RdPvHHSzjpB6nG2c8dmsK0paTm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1EO-vefj3CO2nCUxFkI5urAaltbur7aEz/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1_Meul2Oiv33jKenJ3Ma6wuRbMspOulBO/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1tUTOzzFbuLm-0AnNmWr1Q2uNBBtTMzlQ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1CrU4lwHPv3ckOzLGKIn-JhCOz74N8CGk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1W5PhXKDhXcmsR9OKH6VG2gsazXwMuFLx/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1SoWl2MSXYwra3kYROWuZsVDlhS2a3e0K/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/16keXMZAme4rdEwQGyBVdVlQwqnIRKMnw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1aR4uhsUtfBhB9IhBMvuzcmzWfqdIMVfJ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1e5Yl5H2m0efECjDE2GWpJpiAB2gprUun/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1RovdnOhmNiGfYoxYpEPzZl5hkHZRgXEh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/12_kBngEP1t47oOfJCAMXw3Jk99e9SGGt/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/11rhAeOK0uKV9yC-tg-RqfU3w3e7eqSh7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1iX3QD-2AAe1Nkh_caMIkaXmCmqrQQtAw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                    <?php endif; ?>  
+                </div>
             </div>
         </div>
     </div>
@@ -957,6 +1132,181 @@ $token2 = Parse($video1,'var token',';');
 
                         </div>
                     </div>
+                </div>
+                <div class="main-conteiner" style="width:100%;justify-content:center;margin-bottom:100px">
+                    <?php if ($apartment->kvmeter == 50.1 || $apartment->kvmeter == 61.6 || $apartment->kvmeter == 67.2 || $apartment->kvmeter == 58.8 ): ?>
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1S8sEk4lE4iYYG39gh65S7v3jRJRe0L1V/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/17pNSk5TBD5mTIP0YJlaW113jHTxLbADC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1Of9S6p1gHTyDcXnswr2zwQpSJsxMCB-7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/106h4_xMvrBUyAf1_JUHvob-HrWC0OcCA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1e-6xDd9Gt3ZT2DfUj4xpRO3EwsIdRSB1/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1xBnvigVcPR2N5pByHnHv3m4ow-cMTPPe/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LCHrl9jjeKocnHqIM7TPbZaNNxDi693o/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1ilCJPe3KfeKdSFNeDAMKG6hhPaHLisbj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1o5Oz-suq3EAFpVQ9qVQPD93ZRDeEeEMV/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 86.2): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/14q8hnjzRE7FMunXMkarRaOur1sa_l9RM/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1sUUUx9PuBZg9EyzTPKU0y_ll55EcCcH0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1TQdRDzfcQlfTZyTbiXdPt3_MGPtqE6yj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1vQx1d37GVUbu5YPc2Vi5nzHEEuT6o07r/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1V3xFJOz9lwFW0F28THXOfigKkZSUR9PC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1HOi5wVBd5H9UH8GK6q4Vr0azzvvbYMuh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1WysN_3Q07O1P_8ijtm19R2nAncQNEKZ_/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1DdtkhIoj27ca1p8FzhdlWYsKXRg0dWD7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 83 || $apartment->kvmeter == 59.8): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1j1lWZfms_WAh4r8XPyJDdFUFyutmrbHk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1fQqMJpIJdeVeQO2WQAKV8xZOF5NFPyH3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14|| $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1mCnl3Nwj3Q1R6p6l9ULtpB-367Kzr4rG/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/11rY1hn8V7KrbRq_VDStanJ-p2iVKpYLH/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/12JqKa4s5RMvo9KmCO3xBFVNQyBSQRA6A/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1P5o4v2lGoSsAlYRMuO6g7V5pTNW_r-ya/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1QF7s-q-nCp8lz17SKIkfxAp7cA43hmTA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1a9A9d4dR5vNfwhyeWBF1eYO0uLJknpgv/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 79.7): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1m2wUWwkq1bDWSrInso4UIYljD4ks1icr/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1paSuPYWAf6sQXH-yhQqKhXXJIZigYPyZ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/18NcNS9ncMfAaWPROCbrWwyMC8EOO4vr3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1RE2SdGlKz3XiRF6XuMOmQctAZ6bzByWW/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1sATelDyUa3SofdlpXeCjU25Cp-KXf8Nf/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1drxHvyjOG-_3eaF_07eMnwJUDpWQkVGs/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LfMCDD0z5Xp9z7_2ZuPaOBg2BEHbWQa0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1-8brz--JFqsVdzpPqEZ3d_LaaUwj8yuI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1K00lzqaVPc9OmyfKlC0sWFgolw7X_Hv2/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 37.8 || $apartment->kvmeter == 36.8 || $apartment->kvmeter == 50.5 || $apartment->kvmeter == 55.8 || $apartment->kvmeter == 81.8 || $apartment->kvmeter == 55.9 || $apartment->kvmeter == 37.4 || $apartment->kvmeter == 62.4): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1MHkIYnth765277h-CedmOq0NVN67Hhnm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1nghQRHAMbmJ4a4UMxjaLTqet1OPaAoJI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1PPIAA9WObVact2Ys0HGkGOEtI5zb28t7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1Yj3Rt3RdPvHHSzjpB6nG2c8dmsK0paTm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1EO-vefj3CO2nCUxFkI5urAaltbur7aEz/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1_Meul2Oiv33jKenJ3Ma6wuRbMspOulBO/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1tUTOzzFbuLm-0AnNmWr1Q2uNBBtTMzlQ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1CrU4lwHPv3ckOzLGKIn-JhCOz74N8CGk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1W5PhXKDhXcmsR9OKH6VG2gsazXwMuFLx/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1SoWl2MSXYwra3kYROWuZsVDlhS2a3e0K/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/16keXMZAme4rdEwQGyBVdVlQwqnIRKMnw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1aR4uhsUtfBhB9IhBMvuzcmzWfqdIMVfJ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1e5Yl5H2m0efECjDE2GWpJpiAB2gprUun/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1RovdnOhmNiGfYoxYpEPzZl5hkHZRgXEh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/12_kBngEP1t47oOfJCAMXw3Jk99e9SGGt/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/11rhAeOK0uKV9yC-tg-RqfU3w3e7eqSh7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1iX3QD-2AAe1Nkh_caMIkaXmCmqrQQtAw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                    <?php endif; ?>  
                 </div>
             </div>
         </div>
