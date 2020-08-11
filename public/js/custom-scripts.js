@@ -679,3 +679,18 @@ $(function(){
     $('#equal').val(bymonths +  '$');
   });
 });
+
+$(function(){
+  $('#price2, #percent2, #months2' ).on('keyup change', function (){
+    var price = parseFloat($('#price2').val()) || 0;
+    var percent = parseFloat($('#percent2').val());
+    var months = parseFloat($('#months2').val());
+
+    var CurrentPercent = ((percent/100) * price);
+    var forpay = price - CurrentPercent;
+    var bymonths = Math.round(forpay / months);
+    var witpercent = bymonths + ((7/100)*bymonths);
+
+    $('#equal2').val(witpercent +  '$');
+  });
+});

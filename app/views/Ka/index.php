@@ -282,64 +282,7 @@ $token2 = Parse($video1,'var token',';');
                 - HOME PAGE
             ====================================-->
             <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1" data-heading="">
-                <div class="inner-container ">
-                    <div class="needed-btns">
-                        <div class="livecams" style="margin-top: 70px">
-                            <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                                <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                            </a>
-                            <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                                <p class="call-back--header"><b>კრედიტის კალკულატორი</b></p>
-                                <form class="calculator-form">
-                                    <label for="price">გადასახდელი თანხის ოდენობა:</label>
-                                    <input type="number" id="price" name="price" class="input-field"  required>
-                                    <label for="percent">წინასწარი გადახდა:</label>
-                                    <select id="percent" name="percent" class="input-field" required>
-                                        <option value="20">20%</option>
-                                        <option value="30">30%</option>
-                                        <option value="40">40%</option>
-                                        <option value="50">50%</option>
-                                        <option value="60">60%</option>
-                                        <option value="70">70%</option>
-                                        <option value="80">80%</option>
-                                        <option value="90">90%</option>
-                                    </select>
-                                    <label for="months">გადახდის ხანგრძლივობა <b style="color: #0b2e13">0%</b> პროცენტად:</label>
-                                    <select id="months" name="months" class="input-field" required>
-                                        <option value="27">27 თვე</option>
-                                        <option value="26">26 თვე</option>
-                                        <option value="25">25 თვე</option>
-                                        <option value="24">24 თვე</option>
-                                        <option value="23">23 თვე</option>
-                                        <option value="22">22 თვე</option>
-                                        <option value="21">21 თვე</option>
-                                        <option value="20">20 თვე</option>
-                                        <option value="19">19 თვე</option>
-                                        <option value="18">18 თვე</option>
-                                        <option value="17">17 თვე</option>
-                                        <option value="16">16 თვე</option>
-                                        <option value="15">15 თვე</option>
-                                        <option value="14">14 თვე</option>
-                                        <option value="13">13 თვე</option>
-                                        <option value="12">12 თვე</option>
-                                        <option value="11">11 თვე</option>
-                                        <option value="10">10 თვე</option>
-                                        <option value="9">9 თვე</option>
-                                        <option value="8">8 თვე</option>
-                                        <option value="7">7 თვე</option>
-                                        <option value="6">6 თვე</option>
-                                        <option value="5">5 თვე</option>
-                                        <option value="4">4 თვე</option>
-                                        <option value="3">3 თვე</option>
-                                        <option value="2">2 თვე</option>
-                                        <option value="1">1 თვე</option>
-                                    </select>
-                                    <label for="equal">ყოველთვიური გადასახადი:</label>
-                                    <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <div class="inner-container">
                     <div class="footer-button">
                         <a href="#" class="btn">
                             <p class="icon">
@@ -1096,9 +1039,8 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>კომპანია real palaces -ის გენერალური დირექტორი. </p>
                                             </div>
-
                                         </div>
                                     </div> <!-- End: .each-item -->
                                     <div class="col-md-3 col-xs-6 each-item overflow text-center relative">
@@ -1115,7 +1057,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>ლაშა ზოიძე კომერციული დირექტორი</p>
                                             </div>
 
                                         </div>
@@ -1134,7 +1076,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>ლეონა რიჟვაძე გაყიდვების მენეჯერი</p>
                                             </div>
 
                                         </div>
@@ -1153,7 +1095,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>სალომე ზოიძე გაყიდვების მენეჯერი</p>
                                             </div>
 
                                         </div>

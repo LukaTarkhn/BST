@@ -279,63 +279,6 @@ $token2 = Parse($video1,'var token',';');
             ====================================-->
             <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1" data-heading="">
                 <div class="inner-container ">
-                    <div class="needed-btns">
-                        <div class="livecams" style="margin-top: 70px">
-                            <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                                <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                            </a>
-                            <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                                <p class="call-back--header"><b>Loan calculator</b></p>
-                                <form class="calculator-form">
-                                    <label for="price">Price:</label>
-                                    <input type="number" id="price" name="price" class="input-field"  required>
-                                    <label for="percent">Minimum advance payment:</label>
-                                    <select id="percent" name="percent" class="input-field" required>
-                                        <option value="20">20%</option>
-                                        <option value="30">30%</option>
-                                        <option value="40">40%</option>
-                                        <option value="50">50%</option>
-                                        <option value="60">60%</option>
-                                        <option value="70">70%</option>
-                                        <option value="80">80%</option>
-                                        <option value="90">90%</option>
-                                    </select>
-                                    <label for="months">Duration of payment <b style="color: #0b2e13">0%</b> rate:</label>
-                                    <select id="months" name="months" class="input-field" required>
-                                        <option value="27">27 month</option>
-                                        <option value="26">26 month</option>
-                                        <option value="25">25 month</option>
-                                        <option value="24">24 month</option>
-                                        <option value="23">23 month</option>
-                                        <option value="22">22 month</option>
-                                        <option value="21">21 month</option>
-                                        <option value="20">20 month</option>
-                                        <option value="19">19 month</option>
-                                        <option value="18">18 month</option>
-                                        <option value="17">17 month</option>
-                                        <option value="16">16 month</option>
-                                        <option value="15">15 month</option>
-                                        <option value="14">14 month</option>
-                                        <option value="13">13 month</option>
-                                        <option value="12">12 month</option>
-                                        <option value="11">11 month</option>
-                                        <option value="10">10 month</option>
-                                        <option value="9">9 month</option>
-                                        <option value="8">8 month</option>
-                                        <option value="7">7 month</option>
-                                        <option value="6">6 month</option>
-                                        <option value="5">5 month</option>
-                                        <option value="4">4 month</option>
-                                        <option value="3">3 month</option>
-                                        <option value="2">2 month</option>
-                                        <option value="1">1 month</option>
-                                    </select>
-                                    <label for="equal">Monthly payment:</label>
-                                    <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                     <div class="footer-button">
                         <a href="#" class="btn">
                             <p class="icon">
@@ -1077,7 +1020,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>Ednar Khimshiashvili CEO of the company real palaces.</p>
                                             </div>
 
                                         </div>
@@ -1096,7 +1039,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>Lasha Zoidze Commercial Director</p>
                                             </div>
 
                                         </div>
@@ -1115,7 +1058,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p>Leona Rizvadze Sales Manager</p>
                                             </div>
 
                                         </div>
@@ -1134,7 +1077,7 @@ $token2 = Parse($video1,'var token',';');
                                                 </div>
                                             </div>
                                             <div class="content-detail">
-                                                <p>Vincent is the Founder &amp; CEO of Fusion. He is leading  the company to success with his experience &amp; skill. Leader piverate paradigm cortado ship it integrate Space Team parallax persons grok. Parallax food truck fund 360 campaign venture capital pitch deck actionable insight innovate.</p>
+                                                <p> Salome Zoidze Sales Manager</p>
                                             </div>
 
                                         </div>

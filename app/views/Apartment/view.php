@@ -69,90 +69,6 @@ $token2 = Parse($video1,'var token',';');
                         <img src="/public/images/gallery/logo.png" alt="">
                     </a>
                 </div>
-                <div class="needed-btns" style="z-index: 9999">
-                    <div class="livecams">
-                        <div class="real-videos">
-                            <a class="popup-cam-1" href="https://www.ipcamlive.com/player/player.php?alias=5edfd00ed0cba&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live1.png" alt="">
-                            </a>
-                            <a class="popup-cam-2" href="https://www.ipcamlive.com/player/player.php?alias=5ee1f7e469e75&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live2.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="soc-buttons">
-                        <a target="_blank" href="https://www.facebook.com/BuildingCompanyREALPALACE/">
-                            <i class="icon icon-social-facebook"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/black_sea_towers/">
-                            <i class="icon icon-social-instagram"></i></a>
-                    </div>
-                    <div class="pick-language">
-                        <a href="/ka">
-                            <img src="/public/images/gallery/GE.png" alt="">
-                        </a>
-                        <a href="/ru">
-                            <img src="/public/images/gallery/RU.png" alt="">
-                        </a>
-                        <a href="/en">
-                            <img src="/public/images/gallery/EN.png" alt="">
-                        </a>
-                    </div>
-                    <div class="livecams" style="margin-top: 70px">
-                        <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                            <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                        </a>
-                        <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                            <p class="call-back--header"><b>კრედიტის კალკულატორი</b></p>
-                            <form class="calculator-form">
-                                <label for="price">გადასახდელი თანხის ოდენობა:</label>
-                                <input type="number" id="price" name="price" class="input-field"  required>
-                                <label for="percent">წინასწარი გადახდა:</label>
-                                <select id="percent" name="percent" class="input-field" required>
-                                    <option value="20">20%</option>
-                                    <option value="30">30%</option>
-                                    <option value="40">40%</option>
-                                    <option value="50">50%</option>
-                                    <option value="60">60%</option>
-                                    <option value="70">70%</option>
-                                    <option value="80">80%</option>
-                                    <option value="90">90%</option>
-                                </select>
-                                <label for="months">გადახდის ხანგრძლივობა <b style="color: #0b2e13">0%</b> პროცენტად:</label>
-                                <select id="months" name="months" class="input-field" required>
-                                    <option value="27">27 თვე</option>
-                                    <option value="26">26 თვე</option>
-                                    <option value="25">25 თვე</option>
-                                    <option value="24">24 თვე</option>
-                                    <option value="23">23 თვე</option>
-                                    <option value="22">22 თვე</option>
-                                    <option value="21">21 თვე</option>
-                                    <option value="20">20 თვე</option>
-                                    <option value="19">19 თვე</option>
-                                    <option value="18">18 თვე</option>
-                                    <option value="17">17 თვე</option>
-                                    <option value="16">16 თვე</option>
-                                    <option value="15">15 თვე</option>
-                                    <option value="14">14 თვე</option>
-                                    <option value="13">13 თვე</option>
-                                    <option value="12">12 თვე</option>
-                                    <option value="11">11 თვე</option>
-                                    <option value="10">10 თვე</option>
-                                    <option value="9">9 თვე</option>
-                                    <option value="8">8 თვე</option>
-                                    <option value="7">7 თვე</option>
-                                    <option value="6">6 თვე</option>
-                                    <option value="5">5 თვე</option>
-                                    <option value="4">4 თვე</option>
-                                    <option value="3">3 თვე</option>
-                                    <option value="2">2 თვე</option>
-                                    <option value="1">1 თვე</option>
-                                </select>
-                                <label for="equal">ყოველთვიური გადასახადი:</label>
-                                <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                            </form>
-                        </div>
-                    </div>
-                </div>
                 <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">
                     <div id="bingc-phone-button-tooltip" class="bingc-phone-button-tooltip bingc-phone-button-tooltip-bottom-left bingc-phone-button-tooltip-show-first bingc-phone-button-tooltip-show-second"> დატოვეთ ნომერი და <br>ჩვენ გადმოგირეკავთ <svg version="1.1" class="bingc-phone-button-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 14" enable-background="new 0 0 18 14" xml:space="preserve">
                         <polyline fill="#B3B3B3" points="17.977,0 0.083,0 17.977,13.927 "></polyline>
@@ -168,22 +84,132 @@ $token2 = Parse($video1,'var token',';');
                     </svg>
                 </a>
                 <div id="call-back" class="zoom-anim-dialog mfp-hide">
-                <p class="call-back--header"><b>საკონტაქტო ინფორმაცია</b></p>
-                <span>+995 577 22 47 47</span>
-                <span>+995 514 67 47 47</span>
-                <span>+995 514 65 47 47</span>
-                <span>realpalace2012@gmail.com</span>
-                <p class="call-back--header"><b>ჩვენ დაგირეკავთ</b></p>
-                <h6 class="callsuccess dark-background">მადლობა, მალე დაგირეკავთ</h6>
-                <h6 class="callerror red-text"></h6>
-                <form id="call-form">
-                    <input id="phone" name="phone" type="tel" placeholder="თქვენი ტელეფონის ნომერი" required>
-                    <button type="submit" value="Send">დამირეკეთ</button>
-                </form>
+                    <p class="call-back--header"><b>საკონტაქტო ინფორმაცია</b></p>
+                    <span>+995 577 22 47 47</span>
+                    <span>+995 514 67 47 47</span>
+                    <span>+995 514 65 47 47</span>
+                    <span>realpalace2012@gmail.com</span>
+                    <p class="call-back--header"><b>ჩვენ დაგირეკავთ</b></p>
+                    <h6 class="callsuccess dark-background">მადლობა, მალე დაგირეკავთ</h6>
+                    <h6 class="callerror red-text"></h6>
+                    <form id="call-form">
+                        <input id="phone" name="phone" type="tel" placeholder="თქვენი ტელეფონის ნომერი" required>
+                        <button type="submit" value="Send">დამირეკეთ</button>
+                    </form>
                 </div>
-                <a style="position: absolute; top: 47%;right: 50px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
-                    <div style="background: #4caf50;text-align: center; font-size: 16px; width: 160px">
+                <div id="calculator" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>კრედიტის კალკულატორი</b></p>
+                    <form class="calculator-form">
+                        <label for="price">გადასახდელი თანხის ოდენობა:</label>
+                        <input type="number" id="price" name="price" class="input-field"  required>
+                        <label for="percent">წინასწარი გადახდა:</label>
+                        <select id="percent" name="percent" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months">გადახდის ხანგრძლივობა <b style="color: #0b2e13">0%</b> პროცენტად:</label>
+                        <select id="months" name="months" class="input-field" required>
+                            <option value="27">27 თვე</option>
+                            <option value="26">26 თვე</option>
+                            <option value="25">25 თვე</option>
+                            <option value="24">24 თვე</option>
+                            <option value="23">23 თვე</option>
+                            <option value="22">22 თვე</option>
+                            <option value="21">21 თვე</option>
+                            <option value="20">20 თვე</option>
+                            <option value="19">19 თვე</option>
+                            <option value="18">18 თვე</option>
+                            <option value="17">17 თვე</option>
+                            <option value="16">16 თვე</option>
+                            <option value="15">15 თვე</option>
+                            <option value="14">14 თვე</option>
+                            <option value="13">13 თვე</option>
+                            <option value="12">12 თვე</option>
+                            <option value="11">11 თვე</option>
+                            <option value="10">10 თვე</option>
+                            <option value="9">9 თვე</option>
+                            <option value="8">8 თვე</option>
+                            <option value="7">7 თვე</option>
+                            <option value="6">6 თვე</option>
+                            <option value="5">5 თვე</option>
+                            <option value="4">4 თვე</option>
+                            <option value="3">3 თვე</option>
+                            <option value="2">2 თვე</option>
+                            <option value="1">1 თვე</option>
+                        </select>
+                        <label for="equal">ყოველთვიური გადასახადი:</label>
+                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <div id="calculator2" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>კრედიტის კალკულატორი</b></p>
+                    <form class="calculator-form">
+                        <label for="price2">გადასახდელი თანხის ოდენობა:</label>
+                        <input type="number" id="price2" name="price2" class="input-field"  required>
+                        <label for="percent2">წინასწარი გადახდა:</label>
+                        <select id="percent2" name="percent2" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months2">გადახდის ხანგრძლივობა <b style="color: #0b2e13">7%</b> პროცენტად:</label>
+                        <select id="months2" name="months2" class="input-field" required>
+                            <option value="27">27 თვე</option>
+                            <option value="26">26 თვე</option>
+                            <option value="25">25 თვე</option>
+                            <option value="24">24 თვე</option>
+                            <option value="23">23 თვე</option>
+                            <option value="22">22 თვე</option>
+                            <option value="21">21 თვე</option>
+                            <option value="20">20 თვე</option>
+                            <option value="19">19 თვე</option>
+                            <option value="18">18 თვე</option>
+                            <option value="17">17 თვე</option>
+                            <option value="16">16 თვე</option>
+                            <option value="15">15 თვე</option>
+                            <option value="14">14 თვე</option>
+                            <option value="13">13 თვე</option>
+                            <option value="12">12 თვე</option>
+                            <option value="11">11 თვე</option>
+                            <option value="10">10 თვე</option>
+                            <option value="9">9 თვე</option>
+                            <option value="8">8 თვე</option>
+                            <option value="7">7 თვე</option>
+                            <option value="6">6 თვე</option>
+                            <option value="5">5 თვე</option>
+                            <option value="4">4 თვე</option>
+                            <option value="3">3 თვე</option>
+                            <option value="2">2 თვე</option>
+                            <option value="1">1 თვე</option>
+                        </select>
+                        <label for="equal2">ყოველთვიური გადასახადი:</label>
+                        <input type="text" id="equal2" name="equal2" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <a style="position: absolute; top: 43%;right: 57px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #4caf50;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
                        ბრონირება
+                    </div>
+                </a>
+                <a style="position: absolute; top: 48%;right: 57px" href="#calculator2" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                        იპოთეკური სესხი
+                    </div>
+                </a>
+                <a style="position: absolute; top: 53%;right: 57px" href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                        შიდა უპროცენტო განვადება
                     </div>
                 </a>
                 <div id="armor-apartment" class="zoom-anim-dialog mfp-hide">
@@ -264,12 +290,185 @@ $token2 = Parse($video1,'var token',';');
                                             </a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
+                </div>
+                <div class="main-conteiner" style="width:100%;justify-content:center;margin-bottom:100px">
+                    <?php if ($apartment->kvmeter == 50.1 || $apartment->kvmeter == 61.6 || $apartment->kvmeter == 67.2 || $apartment->kvmeter == 58.8 ): ?>
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1S8sEk4lE4iYYG39gh65S7v3jRJRe0L1V/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/17pNSk5TBD5mTIP0YJlaW113jHTxLbADC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?> 
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1Of9S6p1gHTyDcXnswr2zwQpSJsxMCB-7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/106h4_xMvrBUyAf1_JUHvob-HrWC0OcCA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1e-6xDd9Gt3ZT2DfUj4xpRO3EwsIdRSB1/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1xBnvigVcPR2N5pByHnHv3m4ow-cMTPPe/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LCHrl9jjeKocnHqIM7TPbZaNNxDi693o/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1ilCJPe3KfeKdSFNeDAMKG6hhPaHLisbj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1o5Oz-suq3EAFpVQ9qVQPD93ZRDeEeEMV/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 86.2): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/14q8hnjzRE7FMunXMkarRaOur1sa_l9RM/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1sUUUx9PuBZg9EyzTPKU0y_ll55EcCcH0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1TQdRDzfcQlfTZyTbiXdPt3_MGPtqE6yj/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1vQx1d37GVUbu5YPc2Vi5nzHEEuT6o07r/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1V3xFJOz9lwFW0F28THXOfigKkZSUR9PC/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1HOi5wVBd5H9UH8GK6q4Vr0azzvvbYMuh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1WysN_3Q07O1P_8ijtm19R2nAncQNEKZ_/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1DdtkhIoj27ca1p8FzhdlWYsKXRg0dWD7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 83 || $apartment->kvmeter == 59.8): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1j1lWZfms_WAh4r8XPyJDdFUFyutmrbHk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1fQqMJpIJdeVeQO2WQAKV8xZOF5NFPyH3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14|| $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/1mCnl3Nwj3Q1R6p6l9ULtpB-367Kzr4rG/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/11rY1hn8V7KrbRq_VDStanJ-p2iVKpYLH/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/12JqKa4s5RMvo9KmCO3xBFVNQyBSQRA6A/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1P5o4v2lGoSsAlYRMuO6g7V5pTNW_r-ya/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1QF7s-q-nCp8lz17SKIkfxAp7cA43hmTA/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1a9A9d4dR5vNfwhyeWBF1eYO0uLJknpgv/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1WNNX3OmIINUNwbOkfIIZyoqXQPo1Rw_J/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 79.7): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1m2wUWwkq1bDWSrInso4UIYljD4ks1icr/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <iframe src="https://drive.google.com/file/d/1paSuPYWAf6sQXH-yhQqKhXXJIZigYPyZ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <iframe src="https://drive.google.com/file/d/18NcNS9ncMfAaWPROCbrWwyMC8EOO4vr3/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <iframe src="https://drive.google.com/file/d/1RE2SdGlKz3XiRF6XuMOmQctAZ6bzByWW/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <iframe src="https://drive.google.com/file/d/1sATelDyUa3SofdlpXeCjU25Cp-KXf8Nf/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <iframe src="https://drive.google.com/file/d/1drxHvyjOG-_3eaF_07eMnwJUDpWQkVGs/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <iframe src="https://drive.google.com/file/d/1LfMCDD0z5Xp9z7_2ZuPaOBg2BEHbWQa0/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <iframe src="https://drive.google.com/file/d/1-8brz--JFqsVdzpPqEZ3d_LaaUwj8yuI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <iframe src="https://drive.google.com/file/d/1K00lzqaVPc9OmyfKlC0sWFgolw7X_Hv2/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                    <?php elseif($apartment->kvmeter == 37.8 || $apartment->kvmeter == 36.8 || $apartment->kvmeter == 50.5 || $apartment->kvmeter == 55.8 || $apartment->kvmeter == 81.8 || $apartment->kvmeter == 55.9 || $apartment->kvmeter == 37.4 || $apartment->kvmeter == 62.4): ?>  
+                        <?php if ($apartment->floorid == 6 || $apartment->floorid == 7 || $apartment->floorid == 8): ?>
+                            <iframe src="https://drive.google.com/file/d/1MHkIYnth765277h-CedmOq0NVN67Hhnm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 9 || $apartment->floorid == 10 || $apartment->floorid == 11 || $apartment->floorid == 12): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1nghQRHAMbmJ4a4UMxjaLTqet1OPaAoJI/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1PPIAA9WObVact2Ys0HGkGOEtI5zb28t7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 13 || $apartment->floorid == 14 || $apartment->floorid == 15): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1Yj3Rt3RdPvHHSzjpB6nG2c8dmsK0paTm/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1EO-vefj3CO2nCUxFkI5urAaltbur7aEz/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 16 || $apartment->floorid == 17 || $apartment->floorid == 18): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1_Meul2Oiv33jKenJ3Ma6wuRbMspOulBO/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1tUTOzzFbuLm-0AnNmWr1Q2uNBBtTMzlQ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 19 || $apartment->floorid == 20 || $apartment->floorid == 21 || $apartment->floorid == 22): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1CrU4lwHPv3ckOzLGKIn-JhCOz74N8CGk/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1W5PhXKDhXcmsR9OKH6VG2gsazXwMuFLx/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 23 || $apartment->floorid == 24 || $apartment->floorid == 25 || $apartment->floorid == 26 || $apartment->floorid == 27): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1SoWl2MSXYwra3kYROWuZsVDlhS2a3e0K/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/16keXMZAme4rdEwQGyBVdVlQwqnIRKMnw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 28 || $apartment->floorid == 29 || $apartment->floorid == 30 || $apartment->floorid == 31 || $apartment->floorid == 32): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1aR4uhsUtfBhB9IhBMvuzcmzWfqdIMVfJ/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1e5Yl5H2m0efECjDE2GWpJpiAB2gprUun/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 33 || $apartment->floorid == 34 || $apartment->floorid == 35 || $apartment->floorid == 36 || $apartment->floorid == 37): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/1RovdnOhmNiGfYoxYpEPzZl5hkHZRgXEh/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/12_kBngEP1t47oOfJCAMXw3Jk99e9SGGt/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                        <?php if ($apartment->floorid == 38 || $apartment->floorid == 39 || $apartment->floorid == 40): ?>
+                            <?php if($apartment->kvmeter != 81.8): ?>  
+                                <iframe src="https://drive.google.com/file/d/11rhAeOK0uKV9yC-tg-RqfU3w3e7eqSh7/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php else: ?>
+                                <iframe src="https://drive.google.com/file/d/1iX3QD-2AAe1Nkh_caMIkaXmCmqrQQtAw/preview" allowfullscreen frameborder="0" width="640" height="480"></iframe>
+                            <?php endif; ?>
+                        <?php endif; ?>
+                    <?php endif; ?>  
                 </div>
             </div>
         </div>
@@ -286,90 +485,6 @@ $token2 = Parse($video1,'var token',';');
                     <a href="/">
                         <img src="/public/images/gallery/logo.png" alt="">
                     </a>
-                </div>
-                <div class="needed-btns" style="z-index: 9999">
-                    <div class="livecams">
-                        <div class="real-videos">
-                            <a class="popup-cam-1" href="https://www.ipcamlive.com/player/player.php?alias=5edfd00ed0cba&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live1.png" alt="">
-                            </a>
-                            <a class="popup-cam-2" href="https://www.ipcamlive.com/player/player.php?alias=5ee1f7e469e75&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live2.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="soc-buttons">
-                        <a target="_blank" href="https://www.facebook.com/BuildingCompanyREALPALACE/">
-                            <i class="icon icon-social-facebook"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/black_sea_towers/">
-                            <i class="icon icon-social-instagram"></i></a>
-                    </div>
-                    <div class="pick-language">
-                        <a href="/ka">
-                            <img src="/public/images/gallery/GE.png" alt="">
-                        </a>
-                        <a href="/ru">
-                            <img src="/public/images/gallery/RU.png" alt="">
-                        </a>
-                        <a href="/en">
-                            <img src="/public/images/gallery/EN.png" alt="">
-                        </a>
-                    </div>
-                    <div class="livecams" style="margin-top: 70px">
-                        <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                            <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                        </a>
-                        <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                            <p class="call-back--header"><b>Loan calculator</b></p>
-                            <form class="calculator-form">
-                                <label for="price">Price:</label>
-                                <input type="number" id="price" name="price" class="input-field"  required>
-                                <label for="percent">Minimum advance payment:</label>
-                                <select id="percent" name="percent" class="input-field" required>
-                                    <option value="20">20%</option>
-                                    <option value="30">30%</option>
-                                    <option value="40">40%</option>
-                                    <option value="50">50%</option>
-                                    <option value="60">60%</option>
-                                    <option value="70">70%</option>
-                                    <option value="80">80%</option>
-                                    <option value="90">90%</option>
-                                </select>
-                                <label for="months">Duration of payment <b style="color: #0b2e13">0%</b> rate:</label>
-                                <select id="months" name="months" class="input-field" required>
-                                    <option value="27">27 month</option>
-                                    <option value="26">26 month</option>
-                                    <option value="25">25 month</option>
-                                    <option value="24">24 month</option>
-                                    <option value="23">23 month</option>
-                                    <option value="22">22 month</option>
-                                    <option value="21">21 month</option>
-                                    <option value="20">20 month</option>
-                                    <option value="19">19 month</option>
-                                    <option value="18">18 month</option>
-                                    <option value="17">17 month</option>
-                                    <option value="16">16 month</option>
-                                    <option value="15">15 month</option>
-                                    <option value="14">14 month</option>
-                                    <option value="13">13 month</option>
-                                    <option value="12">12 month</option>
-                                    <option value="11">11 month</option>
-                                    <option value="10">10 month</option>
-                                    <option value="9">9 month</option>
-                                    <option value="8">8 month</option>
-                                    <option value="7">7 month</option>
-                                    <option value="6">6 month</option>
-                                    <option value="5">5 month</option>
-                                    <option value="4">4 month</option>
-                                    <option value="3">3 month</option>
-                                    <option value="2">2 month</option>
-                                    <option value="1">1 month</option>
-                                </select>
-                                <label for="equal">Monthly payment:</label>
-                                <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                            </form>
-                        </div>
-                    </div>
                 </div>
                 <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">
                     <div id="bingc-phone-button-tooltip" class="bingc-phone-button-tooltip bingc-phone-button-tooltip-bottom-left bingc-phone-button-tooltip-show-first bingc-phone-button-tooltip-show-second"> Do you want to call you<br>back at a convenient time? <svg version="1.1" class="bingc-phone-button-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 14" enable-background="new 0 0 18 14" xml:space="preserve">
@@ -399,9 +514,119 @@ $token2 = Parse($video1,'var token',';');
                         <button type="submit" value="Send">CALL ME</button>
                     </form>
                 </div>
-                <a style="position: absolute; top: 47%;right: 50px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                <div id="calculator" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>Loan calculator</b></p>
+                    <form class="calculator-form">
+                        <label for="price">Price:</label>
+                        <input type="number" id="price" name="price" class="input-field"  required>
+                        <label for="percent">Minimum advance payment:</label>
+                        <select id="percent" name="percent" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months">Duration of payment <b style="color: #0b2e13">0%</b> rate:</label>
+                        <select id="months" name="months" class="input-field" required>
+                            <option value="27">27 month</option>
+                            <option value="26">26 month</option>
+                            <option value="25">25 month</option>
+                            <option value="24">24 month</option>
+                            <option value="23">23 month</option>
+                            <option value="22">22 month</option>
+                            <option value="21">21 month</option>
+                            <option value="20">20 month</option>
+                            <option value="19">19 month</option>
+                            <option value="18">18 month</option>
+                            <option value="17">17 month</option>
+                            <option value="16">16 month</option>
+                            <option value="15">15 month</option>
+                            <option value="14">14 month</option>
+                            <option value="13">13 month</option>
+                            <option value="12">12 month</option>
+                            <option value="11">11 month</option>
+                            <option value="10">10 month</option>
+                            <option value="9">9 month</option>
+                            <option value="8">8 month</option>
+                            <option value="7">7 month</option>
+                            <option value="6">6 month</option>
+                            <option value="5">5 month</option>
+                            <option value="4">4 month</option>
+                            <option value="3">3 month</option>
+                            <option value="2">2 month</option>
+                            <option value="1">1 month</option>
+                        </select>
+                        <label for="equal">Monthly payment:</label>
+                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <div id="calculator2" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>Loan calculator</b></p>
+                    <form class="calculator-form">
+                        <label for="price2">Price:</label>
+                        <input type="number" id="price2" name="price2" class="input-field"  required>
+                        <label for="percent2">Minimum advance payment:</label>
+                        <select id="percent2" name="percent2" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months2">Duration of payment <b style="color: #0b2e13">0%</b> rate:</label>
+                        <select id="months2" name="months2" class="input-field" required>
+                            <option value="27">27 month</option>
+                            <option value="26">26 month</option>
+                            <option value="25">25 month</option>
+                            <option value="24">24 month</option>
+                            <option value="23">23 month</option>
+                            <option value="22">22 month</option>
+                            <option value="21">21 month</option>
+                            <option value="20">20 month</option>
+                            <option value="19">19 month</option>
+                            <option value="18">18 month</option>
+                            <option value="17">17 month</option>
+                            <option value="16">16 month</option>
+                            <option value="15">15 month</option>
+                            <option value="14">14 month</option>
+                            <option value="13">13 month</option>
+                            <option value="12">12 month</option>
+                            <option value="11">11 month</option>
+                            <option value="10">10 month</option>
+                            <option value="9">9 month</option>
+                            <option value="8">8 month</option>
+                            <option value="7">7 month</option>
+                            <option value="6">6 month</option>
+                            <option value="5">5 month</option>
+                            <option value="4">4 month</option>
+                            <option value="3">3 month</option>
+                            <option value="2">2 month</option>
+                            <option value="1">1 month</option>
+                        </select>
+                        <label for="equal2">Monthly payment:</label>
+                        <input type="text" id="equal2" name="equal2" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <a style="position: absolute; top: 43%;right: 57px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
                     <div style="background: #4caf50;text-align: center; font-size: 16px; width: 160px">
                        Armor
+                    </div>
+                </a>
+                <a style="position: absolute; top: 48%;right: 57px" href="#calculator2" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                        mortgage loan
+                    </div>
+                </a>
+                <a style="position: absolute; top: 53%;right: 57px" href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                        Internal interest-free installment
                     </div>
                 </a>
                 <div id="armor-apartment" class="zoom-anim-dialog mfp-hide">
@@ -505,90 +730,6 @@ $token2 = Parse($video1,'var token',';');
                         <img src="/public/images/gallery/logo.png" alt="">
                     </a>
                 </div>
-                <div class="needed-btns" style="z-index: 9999">
-                    <div class="livecams">
-                        <div class="real-videos">
-                            <a class="popup-cam-1" href="https://www.ipcamlive.com/player/player.php?alias=5edfd00ed0cba&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live1.png" alt="">
-                            </a>
-                            <a class="popup-cam-2" href="https://www.ipcamlive.com/player/player.php?alias=5ee1f7e469e75&autoplay=1&token=<?php echo $token1; ?>">
-                                <img src="/public/images/gallery/live2.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="soc-buttons">
-                        <a target="_blank" href="https://www.facebook.com/BuildingCompanyREALPALACE/">
-                            <i class="icon icon-social-facebook"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/black_sea_towers/">
-                            <i class="icon icon-social-instagram"></i></a>
-                    </div>
-                    <div class="pick-language">
-                        <a href="/ka">
-                            <img src="/public/images/gallery/GE.png" alt="">
-                        </a>
-                        <a href="/ru">
-                            <img src="/public/images/gallery/RU.png" alt="">
-                        </a>
-                        <a href="/en">
-                            <img src="/public/images/gallery/EN.png" alt="">
-                        </a>
-                    </div>
-                    <div class="livecams" style="margin-top: 70px">
-                        <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                            <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                        </a>
-                        <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                            <p class="call-back--header"><b>Калькулатор кредита</b></p>
-                            <form class="calculator-form">
-                                <label for="price">Итоговая цена:</label>
-                                <input type="number" id="price" name="price" class="input-field"  required>
-                                <label for="percent">Минимальная предоплата:</label>
-                                <select id="percent" name="percent" class="input-field" required>
-                                    <option value="20">20%</option>
-                                    <option value="30">30%</option>
-                                    <option value="40">40%</option>
-                                    <option value="50">50%</option>
-                                    <option value="60">60%</option>
-                                    <option value="70">70%</option>
-                                    <option value="80">80%</option>
-                                    <option value="90">90%</option>
-                                </select>
-                                <label for="months">Продолжительность платежа <b style="color: #0b2e13">0%</b> Процентная ставка:</label>
-                                <select id="months" name="months" class="input-field" required>
-                                    <option value="27">27 Месяц</option>
-                                    <option value="26">26 Месяц</option>
-                                    <option value="25">25 Месяц</option>
-                                    <option value="24">24 Месяц</option>
-                                    <option value="23">23 Месяц</option>
-                                    <option value="22">22 Месяц</option>
-                                    <option value="21">21 Месяц</option>
-                                    <option value="20">20 Месяц</option>
-                                    <option value="19">19 Месяц</option>
-                                    <option value="18">18 Месяц</option>
-                                    <option value="17">17 Месяц</option>
-                                    <option value="16">16 Месяц</option>
-                                    <option value="15">15 Месяц</option>
-                                    <option value="14">14 Месяц</option>
-                                    <option value="13">13 Месяц</option>
-                                    <option value="12">12 Месяц</option>
-                                    <option value="11">11 Месяц</option>
-                                    <option value="10">10 Месяц</option>
-                                    <option value="9">9 Месяц</option>
-                                    <option value="8">8 Месяц</option>
-                                    <option value="7">7 Месяц</option>
-                                    <option value="6">6 Месяц</option>
-                                    <option value="5">5 Месяц</option>
-                                    <option value="4">4 Месяц</option>
-                                    <option value="3">3 Месяц</option>
-                                    <option value="2">2 Месяц</option>
-                                    <option value="1">1 Месяц</option>
-                                </select>
-                                <label for="equal">Ежемесячный платёж:</label>
-                                <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                            </form>
-                        </div>
-                    </div>
-                </div>
                 <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">
                     <div id="bingc-phone-button-tooltip" class="bingc-phone-button-tooltip bingc-phone-button-tooltip-bottom-left bingc-phone-button-tooltip-show-first bingc-phone-button-tooltip-show-second"> Хотите, перезвоним Вам<br>в удобное время? <svg version="1.1" class="bingc-phone-button-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 14" enable-background="new 0 0 18 14" xml:space="preserve">
                         <polyline fill="#B3B3B3" points="17.977,0 0.083,0 17.977,13.927 "></polyline>
@@ -617,9 +758,119 @@ $token2 = Parse($video1,'var token',';');
                         <button type="submit" value="Send">Позвоните мне</button>
                     </form>
                 </div>
-                <a style="position: absolute; top: 47%;right: 50px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                <div id="calculator" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>Калькулатор кредита</b></p>
+                    <form class="calculator-form">
+                        <label for="price">Итоговая цена:</label>
+                        <input type="number" id="price" name="price" class="input-field"  required>
+                        <label for="percent">Минимальная предоплата:</label>
+                        <select id="percent" name="percent" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months">Продолжительность платежа <b style="color: #0b2e13">0%</b> Процентная ставка:</label>
+                        <select id="months" name="months" class="input-field" required>
+                            <option value="27">27 Месяц</option>
+                            <option value="26">26 Месяц</option>
+                            <option value="25">25 Месяц</option>
+                            <option value="24">24 Месяц</option>
+                            <option value="23">23 Месяц</option>
+                            <option value="22">22 Месяц</option>
+                            <option value="21">21 Месяц</option>
+                            <option value="20">20 Месяц</option>
+                            <option value="19">19 Месяц</option>
+                            <option value="18">18 Месяц</option>
+                            <option value="17">17 Месяц</option>
+                            <option value="16">16 Месяц</option>
+                            <option value="15">15 Месяц</option>
+                            <option value="14">14 Месяц</option>
+                            <option value="13">13 Месяц</option>
+                            <option value="12">12 Месяц</option>
+                            <option value="11">11 Месяц</option>
+                            <option value="10">10 Месяц</option>
+                            <option value="9">9 Месяц</option>
+                            <option value="8">8 Месяц</option>
+                            <option value="7">7 Месяц</option>
+                            <option value="6">6 Месяц</option>
+                            <option value="5">5 Месяц</option>
+                            <option value="4">4 Месяц</option>
+                            <option value="3">3 Месяц</option>
+                            <option value="2">2 Месяц</option>
+                            <option value="1">1 Месяц</option>
+                        </select>
+                        <label for="equal">Ежемесячный платёж:</label>
+                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <div id="calculator2" class="zoom-anim-dialog mfp-hide">
+                    <p class="call-back--header"><b>Калькулатор кредита</b></p>
+                    <form class="calculator-form">
+                        <label for="price2">Итоговая цена:</label>
+                        <input type="number" id="price2" name="price2" class="input-field"  required>
+                        <label for="percent2">Минимальная предоплата:</label>
+                        <select id="percent2" name="percent2" class="input-field" required>
+                            <option value="20">20%</option>
+                            <option value="30">30%</option>
+                            <option value="40">40%</option>
+                            <option value="50">50%</option>
+                            <option value="60">60%</option>
+                            <option value="70">70%</option>
+                            <option value="80">80%</option>
+                            <option value="90">90%</option>
+                        </select>
+                        <label for="months2">Продолжительность платежа <b style="color: #0b2e13">0%</b> Процентная ставка:</label>
+                        <select id="months2" name="months2" class="input-field" required>
+                            <option value="27">27 Месяц</option>
+                            <option value="26">26 Месяц</option>
+                            <option value="25">25 Месяц</option>
+                            <option value="24">24 Месяц</option>
+                            <option value="23">23 Месяц</option>
+                            <option value="22">22 Месяц</option>
+                            <option value="21">21 Месяц</option>
+                            <option value="20">20 Месяц</option>
+                            <option value="19">19 Месяц</option>
+                            <option value="18">18 Месяц</option>
+                            <option value="17">17 Месяц</option>
+                            <option value="16">16 Месяц</option>
+                            <option value="15">15 Месяц</option>
+                            <option value="14">14 Месяц</option>
+                            <option value="13">13 Месяц</option>
+                            <option value="12">12 Месяц</option>
+                            <option value="11">11 Месяц</option>
+                            <option value="10">10 Месяц</option>
+                            <option value="9">9 Месяц</option>
+                            <option value="8">8 Месяц</option>
+                            <option value="7">7 Месяц</option>
+                            <option value="6">6 Месяц</option>
+                            <option value="5">5 Месяц</option>
+                            <option value="4">4 Месяц</option>
+                            <option value="3">3 Месяц</option>
+                            <option value="2">2 Месяц</option>
+                            <option value="1">1 Месяц</option>
+                        </select>
+                        <label for="equal2">Ежемесячный платёж:</label>
+                        <input type="text" id="equal2" name="equal2" class="input-field" value="0$" disabled>
+                    </form>
+                </div>
+                <a style="position: absolute; top: 43%;right: 57px" href="#armor-apartment" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
                     <div style="background: #4caf50;text-align: center; font-size: 16px; width: 160px">
                        Забронировать
+                    </div>
+                </a>
+                <a style="position: absolute; top: 48%;right: 57px" href="#calculator2" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                     Ипотечный заем
+                    </div>
+                </a>
+                <a style="position: absolute; top: 53%;right: 57px" href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button">
+                    <div style="background: #252384;text-align: center; font-size: 16px; width: 160px;font-family: CITI-Nus-Regular !important;">
+                     Внутренний беспроцентный ипотека
                     </div>
                 </a>
                 <div id="armor-apartment" class="zoom-anim-dialog mfp-hide">

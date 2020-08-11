@@ -7,7 +7,7 @@ return [
 ];
 
 // return [
-//     'dsn' => 'mysql:host=localhost:3306;dbname=realpala_buildcompany;charset=utf8',
-//     'user' => 'realpala_luka',
+//     'dsn' => 'mysql:host=localhost:3306;dbname=blackse2_buildcompany;charset=utf8',
+//     'user' => 'blackse2_luka',
 //     'pass' => 'Bebiasheni25',
 // ];

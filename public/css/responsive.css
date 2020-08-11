@@ -81,6 +81,7 @@
   .main-conteiner {
     flex-direction: column-reverse;
     padding: 0 20px;
+    margin-bottom: 400px;
   }
   .info-block, 
   .image-block {
