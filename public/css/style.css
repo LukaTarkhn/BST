@@ -7189,3 +7189,10 @@ polygon{
   display: none;
   text-align: center;
 }
+.vid_iframe {
+  height: 100%;
+}
+#iframevideo {
+  width: 640px;
+  height: 480px;
+}

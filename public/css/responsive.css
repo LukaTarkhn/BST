@@ -83,6 +83,18 @@
     padding: 0 20px;
     margin-bottom: 400px;
   }
+  .image-block img {
+    min-height: 0;
+  }
+  .vid_iframe {
+    margin-top: -100px;
+    height: 100%;
+    width: 100%;
+  }
+  #iframevideo {
+    height: 60%;
+    width: 100%;
+  }
   .info-block, 
   .image-block {
     width: 100% !important;
