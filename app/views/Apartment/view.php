@@ -12,6 +12,7 @@ $token1 = Parse($video1,'var token',';');
 $video2 = file_get_contents('https://www.ipcamlive.com/5ee1f7e469e75');
 $token2 = Parse($video1,'var token',';');
 ?>
+
 <style>
     html,
     body,
@@ -55,15 +56,30 @@ $token2 = Parse($video1,'var token',';');
     }
     .sub-heading, html, body, h1, h2, span, p, small, div, a, h3, .btn, .right-icon, .btn-services, .btn-mask, .section-heading, .min-heder, #bingc-phone-button-tooltip {
     font-family: CITI-Nus-Regular;
-}
-
+    }
+    body {
+        overflow-y: auto!important;
+    }
 </style>
+<div id="main-preloader" class="main-preloader semi-dark-background">
+    <div class="main-preloader-inner center">
+        <h1 class="preloader-percentage center" style="font-size: 12px;">
+            Black Sea Towers
+        </h1>
+        <div class="center" style="background-color: #484848;">
+            <img src="/public/images/gallery/logo.png" alt="">
+        </div>
+        <div class="preloader-bar-outer">
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+</div>
 <?php $lang = \ibuild\App::$app->getProperty('language');?>
 <?php if ($lang['code'] === 'GE'): ?>
 <section class="content-area" id="fullpage">
     <div class="container-fluid">
-        <div class="row">
-            <div class=" section section-item combine-section hide-overlay overflow semi-dark-background" data-heading="">
+        <div class="row semi-dark-background">
+            <div data-heading="">
                 <div class="header-logo">
                     <a href="/">
                         <img src="/public/images/gallery/logo.png" alt="">
@@ -483,8 +499,8 @@ $token2 = Parse($video1,'var token',';');
 <?php elseif($lang['code'] === 'EN'): ?>
 <section class="content-area" id="fullpage">
     <div class="container-fluid">
-        <div class="row">
-            <div class=" section section-item combine-section hide-overlay overflow semi-dark-background" data-heading="">
+        <div class="row semi-dark-background">
+            <div data-heading="">
                 <div class="header-logo">
                     <a href="/">
                         <img src="/public/images/gallery/logo.png" alt="">
@@ -906,8 +922,8 @@ $token2 = Parse($video1,'var token',';');
 <?php elseif($lang['code'] === 'RU'): ?>
 <section class="content-area" id="fullpage">
     <div class="container-fluid">
-        <div class="row">
-            <div class=" section section-item combine-section hide-overlay overflow semi-dark-background" data-heading="">
+        <div class="row semi-dark-background">
+            <div data-heading="">
                 <div class="header-logo">
                     <a href="/">
                         <img src="/public/images/gallery/logo.png" alt="">

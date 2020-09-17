@@ -6512,7 +6512,8 @@ a:active {
   width: 24px;
   height: 24px;
 }
-#bingc-active a.bingc-active-close-button svg polygon {
+#bingc-active a.bingc-active-close-button svg polygon,
+#bingc-active a.bingc-active-close-button svg rect {
   fill: #fff !important;
 }
 #bingc-active a.bingc-active-close-button:hover {
@@ -7007,7 +7008,8 @@ a:active {
   justify-content: center;
 }
 
-polygon{
+polygon,
+rect {
   cursor: pointer;
   stroke: #fff;
   fill: rgba(43, 124, 194, 0);;

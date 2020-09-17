@@ -71,7 +71,16 @@
                         <a href="<?=ADMIN;?>/apartment" class="nav-link">
                             <i class="nav-icon far fa-building"></i>
                             <p>
-                                Apartments
+                                A Block
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item has-treeview menu-open">
+                        <a href="<?=ADMIN;?>/bapartment" class="nav-link">
+                            <i class="nav-icon far fa-building"></i>
+                            <p>
+                                B Block
                             </p>
                         </a>
                     </li>

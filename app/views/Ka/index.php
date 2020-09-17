@@ -90,6 +90,87 @@ $token2 = Parse($video1,'var token',';');
     <?php if ($apartment->floorid == 39 && $apartment->status == 1):  ?><?php $floor39 = $floor39 + 1 ?><?php endif;  ?>
     <?php if ($apartment->floorid == 40 && $apartment->status == 1):  ?><?php $floor40 = $floor40 + 1 ?><?php endif;  ?>
 <?php  endforeach; ?>
+
+
+
+<?php $bfloor4 = 0 ?>
+<?php $bfloor5 = 0 ?>
+<?php $bfloor6 = 0 ?>
+<?php $bfloor7 = 0 ?>
+<?php $bfloor8 = 0 ?>
+<?php $bfloor9 = 0 ?>
+<?php $bfloor10 = 0 ?>
+<?php $bfloor11 = 0 ?>
+<?php $bfloor12 = 0 ?>
+<?php $bfloor13 = 0 ?>
+<?php $bfloor14 = 0 ?>
+<?php $bfloor15 = 0 ?>
+<?php $bfloor16 = 0 ?>
+<?php $bfloor17 = 0 ?>
+<?php $bfloor18 = 0 ?>
+<?php $bfloor19 = 0 ?>
+<?php $bfloor20 = 0 ?>
+<?php $bfloor21 = 0 ?>
+<?php $bfloor22 = 0 ?>
+<?php $bfloor23 = 0 ?>
+<?php $bfloor24 = 0 ?>
+<?php $bfloor25 = 0 ?>
+<?php $bfloor26 = 0 ?>
+<?php $bfloor27 = 0 ?>
+<?php $bfloor28 = 0 ?>
+<?php $bfloor29 = 0 ?>
+<?php $bfloor30 = 0 ?>
+<?php $bfloor31 = 0 ?>
+<?php $bfloor32 = 0 ?>
+<?php $bfloor33 = 0 ?>
+<?php $bfloor34 = 0 ?>
+<?php $bfloor35 = 0 ?>
+<?php $bfloor36 = 0 ?>
+<?php $bfloor37 = 0 ?>
+<?php $bfloor38 = 0 ?>
+<?php $bfloor39 = 0 ?>
+<?php $bfloor40 = 0 ?>
+
+<?php  foreach ($bapartments as $bapartment): ?>
+    <?php if ($bapartment->floorid == 4 && $bapartment->status == 1):  ?><?php $bfloor4 = $bfloor4 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 5 && $bapartment->status == 1):  ?><?php $bfloor5 = $bfloor5 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 6 && $bapartment->status == 1):  ?><?php $bfloor6 = $bfloor6 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 7 && $bapartment->status == 1):  ?><?php $bfloor7 = $bfloor7 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 8 && $bapartment->status == 1):  ?><?php $bfloor8 = $bfloor8 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 9 && $bapartment->status == 1):  ?><?php $bfloor9 = $bfloor9 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 10 && $bapartment->status == 1):  ?><?php $bfloor10 = $bfloor10 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 11 && $bapartment->status == 1):  ?><?php $bfloor11 = $bfloor11 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 12 && $bapartment->status == 1):  ?><?php $bfloor12 = $bfloor12 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 13 && $bapartment->status == 1):  ?><?php $bfloor13 = $bfloor13 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 14 && $bapartment->status == 1):  ?><?php $bfloor14 = $bfloor14 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 15 && $bapartment->status == 1):  ?><?php $bfloor15 = $bfloor15 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 16 && $bapartment->status == 1):  ?><?php $bfloor16 = $bfloor16 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 17 && $bapartment->status == 1):  ?><?php $bfloor17 = $bfloor17 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 18 && $bapartment->status == 1):  ?><?php $bfloor18 = $bfloor18 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 19 && $bapartment->status == 1):  ?><?php $bfloor19 = $bfloor19 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 20 && $bapartment->status == 1):  ?><?php $bfloor20 = $bfloor20 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 21 && $bapartment->status == 1):  ?><?php $bfloor21 = $bfloor21 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 22 && $bapartment->status == 1):  ?><?php $bfloor22 = $bfloor22 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 23 && $bapartment->status == 1):  ?><?php $bfloor23 = $bfloor23 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 24 && $bapartment->status == 1):  ?><?php $bfloor24 = $bfloor24 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 25 && $bapartment->status == 1):  ?><?php $bfloor25 = $bfloor25 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 26 && $bapartment->status == 1):  ?><?php $bfloor26 = $bfloor26 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 27 && $bapartment->status == 1):  ?><?php $bfloor27 = $bfloor27 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 28 && $bapartment->status == 1):  ?><?php $bfloor28 = $bfloor28 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 29 && $bapartment->status == 1):  ?><?php $bfloor29 = $bfloor29 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 30 && $bapartment->status == 1):  ?><?php $bfloor30 = $bfloor30 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 31 && $bapartment->status == 1):  ?><?php $bfloor31 = $bfloor31 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 32 && $bapartment->status == 1):  ?><?php $bfloor32 = $bfloor32 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 33 && $bapartment->status == 1):  ?><?php $bfloor33 = $bfloor33 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 34 && $bapartment->status == 1):  ?><?php $bfloor34 = $bfloor34 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 35 && $bapartment->status == 1):  ?><?php $bfloor35 = $bfloor35 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 36 && $bapartment->status == 1):  ?><?php $bfloor36 = $bfloor36 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 37 && $bapartment->status == 1):  ?><?php $bfloor37 = $bfloor37 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 38 && $bapartment->status == 1):  ?><?php $bfloor38 = $bfloor38 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 39 && $bapartment->status == 1):  ?><?php $bfloor39 = $bfloor39 + 1 ?><?php endif;  ?>
+    <?php if ($bapartment->floorid == 40 && $bapartment->status == 1):  ?><?php $bfloor40 = $bfloor40 + 1 ?><?php endif;  ?>
+<?php  endforeach; ?>
+
 <style>
     .pick-heading, .sub-heading, html, body, h1, h2, span, p, small, div, a, h3, .btn, .right-icon, .btn-services, .btn-mask, .section-heading, .min-heder, #bingc-phone-button-tooltip {
     font-family: CITI-Nus-Regular;
@@ -406,7 +487,119 @@ $token2 = Parse($video1,'var token',';');
                             <a href="/ka/floor/47">
                                 <polygon id="<?php if ($floor40 < 16): ?>სართული&nbsp;40<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($floor40 < 16): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" points="1472.5 320.5 1472.5 294.5 1648.32 101.5 1958 105.5 1958 145.5 1644.32 141.5 1472.5 320.5"/>
                             </a>
-                            <polygon id="მალე&nbsp;იქნება&nbsp;გაყიდვაში" class="sold-polygon" points="666.5 22.5 639.5 58.5 639.5 1879.5 1014.5 1879.5 1014.5 46.5 984.5 22.5 666.5 22.5"/>
+
+                            <!-- B block -->
+                            <a href="/ka/bfloor/3">              
+                                <polygon id="<?php if ($bfloor4 < 13): ?>სართული&nbsp;4<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor4 < 13): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" points="653.5 1836.5 1006.5 1836.5 1006.5 1874.5 653.5 1878.5 653.5 1836.5"/>
+                            </a>
+                            <a href="/ka/bfloor/4">     
+                                <rect id="<?php if ($bfloor5 < 10): ?>სართული&nbsp;5<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor5 < 10): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1786.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/5">     
+                                <rect id="<?php if ($bfloor6 < 18): ?>სართული&nbsp;6<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor6 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1736.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/6">     
+                                <rect id="<?php if ($bfloor7 < 18): ?>სართული&nbsp;7<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor7 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1685.5" width="353" height="48"/>
+                            </a>
+                            <a href="/ka/bfloor/7">     
+                                <rect id="<?php if ($bfloor8 < 18): ?>სართული&nbsp;8<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor8 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1634.5" width="353" height="48"/>
+                            </a>
+                            <a href="/ka/bfloor/8">     
+                                <rect id="<?php if ($bfloor9 < 18): ?>სართული&nbsp;9<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor9 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1588.5" width="353" height="43"/>
+                            </a>
+                            <a href="/ka/bfloor/9">     
+                                <rect id="<?php if ($bfloor10 < 18): ?>სართული&nbsp;10<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor10 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1538.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/10">     
+                                <rect id="<?php if ($bfloor11 < 18): ?>სართული&nbsp;11<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor11 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1489.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/11">     
+                                <rect id="<?php if ($bfloor12 < 18): ?>სართული&nbsp;12<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor12 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1440.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/12">     
+                                <rect id="<?php if ($bfloor13 < 18): ?>სართული&nbsp;13<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor13 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1391.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/13">     
+                                <rect id="<?php if ($bfloor14 < 18): ?>სართული&nbsp;14<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor14 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1342.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/14">     
+                                <rect id="<?php if ($bfloor15 < 18): ?>სართული&nbsp;15<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor15 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1293.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/15">     
+                                <rect id="<?php if ($bfloor16 < 18): ?>სართული&nbsp;16<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor16 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1245.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/16">     
+                                <rect id="<?php if ($bfloor17 < 18): ?>სართული&nbsp;17<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor17 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1197.5" width="353" height="44"/>
+                            </a>
+                            <a href="/ka/bfloor/17">     
+                                <rect id="<?php if ($bfloor18 < 18): ?>სართული&nbsp;18<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor18 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1146.5" width="353" height="48"/>
+                            </a>
+                            <a href="/ka/bfloor/18">     
+                                <rect id="<?php if ($bfloor19 < 18): ?>სართული&nbsp;19<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor19 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1099.5" width="353" height="44"/>
+                            </a>
+                            <a href="/ka/bfloor/19">     
+                                <rect id="<?php if ($bfloor20 < 18): ?>სართული&nbsp;20<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor20 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1050.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/20">     
+                                <rect id="<?php if ($bfloor21 < 18): ?>სართული&nbsp;21<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor21 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="1002.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/21">     
+                                <rect id="<?php if ($bfloor22 < 18): ?>სართული&nbsp;22<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor22 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="952.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/22">     
+                                <rect id="<?php if ($bfloor23 < 18): ?>სართული&nbsp;23<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor23 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="903.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/23">     
+                                <rect id="<?php if ($bfloor24 < 18): ?>სართული&nbsp;24<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor24 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="854.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/24">     
+                                <rect id="<?php if ($bfloor25 < 18): ?>სართული&nbsp;25<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor25 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="806.5" width="353" height="44"/>
+                            </a>
+                            <a href="/ka/bfloor/25">     
+                                <rect id="<?php if ($bfloor26 < 18): ?>სართული&nbsp;26<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor26 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="750.5" width="353" height="51"/>
+                            </a>
+                            <a href="/ka/bfloor/26">     
+                                <rect id="<?php if ($bfloor27 < 18): ?>სართული&nbsp;27<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor27 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="697.5" width="353" height="49"/>
+                            </a>
+                            <a href="/ka/bfloor/27">     
+                                <rect id="<?php if ($bfloor28 < 18): ?>სართული&nbsp;28<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor28 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="648.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/28">     
+                                <rect id="<?php if ($bfloor29 < 18): ?>სართული&nbsp;29<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor29 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="599.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/29">     
+                                <rect id="<?php if ($bfloor30 < 18): ?>სართული&nbsp;30<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor30 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="550.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/30">     
+                                <rect id="<?php if ($bfloor31 < 18): ?>სართული&nbsp;31<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor31 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="500.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/31">     
+                                <rect id="<?php if ($bfloor32 < 18): ?>სართული&nbsp;32<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor32 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="450.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/32">     
+                                <rect id="<?php if ($bfloor33 < 18): ?>სართული&nbsp;33<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor33 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="400.5" width="353" height="46"/>
+                            </a>
+                            <a href="/ka/bfloor/33">     
+                                <rect id="<?php if ($bfloor34 < 18): ?>სართული&nbsp;34<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor34 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="352.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/34">     
+                                <rect id="<?php if ($bfloor35 < 18): ?>სართული&nbsp;35<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor35 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="304.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/35">     
+                                <rect id="<?php if ($bfloor36 < 18): ?>სართული&nbsp;36<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor36 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="254.5" width="353" height="47"/>
+                            </a>
+                            <a href="/ka/bfloor/36">     
+                                <rect id="<?php if ($bfloor37 < 18): ?>სართული&nbsp;37<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor37 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="206.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/37">     
+                                <rect id="<?php if ($bfloor38 < 18): ?>სართული&nbsp;38<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor38 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="158.5" width="353" height="44"/>
+                            </a>
+                            <a href="/ka/bfloor/38">     
+                                <rect id="<?php if ($bfloor39 < 18): ?>სართული&nbsp;39<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor39 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="109.5" width="353" height="45"/>
+                            </a>
+                            <a href="/ka/bfloor/39">     
+                                <rect id="<?php if ($bfloor40 < 18): ?>სართული&nbsp;40<?php else: ?>გაყიდულია<?php endif; ?>" class="<?php if ($bfloor40 < 18): ?>enabled<?php else: ?>sold-polygon<?php endif; ?>" x="653.5" y="60.5" width="353" height="46"/>
+                            </a>
                         </svg>
                         <div class="description"></div>
                     </div> <!-- End: .container -->

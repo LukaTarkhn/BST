@@ -10,9 +10,11 @@ class RuController extends AppController {
         $finishedProjects = \R::find('finished');
         $currentWorks = \R::find('current', 'ORDER BY id DESC LIMIT 8');
         $floors = \R::find('floors');
+        $bfloors = \R::find('bfloors');
         $offers = \R::find('offers');
         $media = \R::find('media');
         $apartments = \R::findAll('apartments2');
+        $bapartments = \R::findAll('bapartments');
         
         $this->setMeta(
             'Black Sea Towers – жилой комплекс в Батуми',
@@ -22,7 +24,7 @@ class RuController extends AppController {
             'lukatarkhnishvili.com'
         );
 
-        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'offers', 'apartments', 'media'));
+        $this->set(compact('aboutus', 'finishedProjects', 'currentWorks', 'floors', 'bfloors', 'offers', 'bapartments', 'apartments', 'media'));
 
         setcookie('languages', 'RU', time() + 3600 * 24, '/');
     }

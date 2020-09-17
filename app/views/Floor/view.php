@@ -51,7 +51,6 @@ $token2 = Parse($video1,'var token',';');
         <?php $items[] = $apartment ?>
     <?php endif; ?>
 <?php endforeach; ?>
-
 <?php $lang = \ibuild\App::$app->getProperty('language');?>
 <?php if ($lang['code'] === 'GE'): ?>
     <section>
@@ -185,113 +184,113 @@ $token2 = Parse($video1,'var token',';');
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3545.15 1235">
                         <image x="0.08" width="3545" height="1235" xlink:href="/public/images/gallery/gegma20.png"/>
                         <a href="/ka/apartment/<?= $items[14]['id'] ?>">
-                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="517.78 520.5 463.58 1165.5 373.58 1165.5 136.58 1192.5 157.58 1099.5 34.58 1105.5 0.58 1066.5 97.58 838.5 52.58 832.5 43.58 799.5 203.94 442.61 412.58 520.5 517.78 520.5"/>
+                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="517.78 520.5 463.58 1165.5 373.58 1165.5 136.58 1192.5 157.58 1099.5 34.58 1105.5 0.58 1066.5 97.58 838.5 52.58 832.5 43.58 799.5 203.94 442.61 412.58 520.5 517.78 520.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[13]['id'] ?>">
-                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="513.32 617.5 757.58 617.5 724.58 1165.5 463.58 1165.5 513.32 617.5"/>
+                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="513.32 617.5 757.58 617.5 724.58 1165.5 463.58 1165.5 513.32 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[12]['id'] ?>">
-                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="757.58 617.5 724.58 1165.5 1087.58 1165.5 1105.58 617.5 757.58 617.5"/>
+                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="757.58 617.5 724.58 1165.5 1087.58 1165.5 1105.58 617.5 757.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[11]['id'] ?>">
-                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1105.58 617.5 1087.58 1165.5 1303.58 1165.5 1324.58 617.5 1105.58 617.5"/>
+                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1105.58 617.5 1087.58 1165.5 1303.58 1165.5 1324.58 617.5 1105.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[10]['id'] ?>">
-                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 617.5 1303.58 1165.5 1492.58 1165.5 1507.58 617.5 1324.58 617.5"/>
+                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 617.5 1303.58 1165.5 1492.58 1165.5 1507.58 617.5 1324.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[9]['id'] ?>">
-                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1507.58 617.5 1492.58 1165.5 1816.58 1165.5 1816.58 617.5 1507.58 617.5"/>
+                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1507.58 617.5 1492.58 1165.5 1816.58 1165.5 1816.58 617.5 1507.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[8]['id'] ?>">
-                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 1165.5 2146.58 1165.5 2134.58 910.5 2134.58 617.5 1816.58 617.5 1816.58 1165.5"/>
+                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 1165.5 2146.58 1165.5 2134.58 910.5 2134.58 617.5 1816.58 617.5 1816.58 1165.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[7]['id'] ?>">
-                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2146.58 617.5 2146.58 1165.5 2401.58 1165.5 2380.58 617.5 2146.58 617.5"/>
+                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2146.58 617.5 2146.58 1165.5 2401.58 1165.5 2380.58 617.5 2146.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[6]['id'] ?>">
-                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2380.58 617.5 2401.58 1165.5 2659.58 1165.5 2629.58 617.5 2380.58 617.5"/>
+                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2380.58 617.5 2401.58 1165.5 2659.58 1165.5 2629.58 617.5 2380.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[5]['id'] ?>">
-                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2629.58 617.5 2659.58 1165.5 2827.58 1165.5 2806.58 617.5 2629.58 617.5"/>
+                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2629.58 617.5 2659.58 1165.5 2827.58 1165.5 2806.58 617.5 2629.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[4]['id'] ?>">
-                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2806.58 617.5 2827.58 1165.5 3037.58 1165.5 2995.58 617.5 2806.58 617.5"/>
+                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2806.58 617.5 2827.58 1165.5 3037.58 1165.5 2995.58 617.5 2806.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[3]['id'] ?>">
-                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2995.58 617.5 3127.58 617.5 3127.58 565.5 3466.58 565.5 3544.58 1165.5 3037.58 1165.5 2995.58 617.5"/>
+                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2995.58 617.5 3127.58 617.5 3127.58 565.5 3466.58 565.5 3544.58 1165.5 3037.58 1165.5 2995.58 617.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[2]['id'] ?>">
-                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2989.58 520.5 3118.58 520.5 3118.58 565.5 3466.58 565.5 3400.58 13.5 2956.58 13.5 2989.58 520.5"/>
+                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2989.58 520.5 3118.58 520.5 3118.58 565.5 3466.58 565.5 3400.58 13.5 2956.58 13.5 2989.58 520.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[1]['id'] ?>">
-                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2761.58 13.5 2806.58 520.5 2995.58 520.5 2956.58 13.5 2761.58 13.5"/>
+                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2761.58 13.5 2806.58 520.5 2995.58 520.5 2956.58 13.5 2761.58 13.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[0]['id'] ?>">
-                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2593.58 13.5 2629.58 520.5 2806.58 520.5 2761.58 13.5 2593.58 13.5"/>
+                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2593.58 13.5 2629.58 520.5 2806.58 520.5 2761.58 13.5 2593.58 13.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[18]['id'] ?>">
-                            <polygon id="<?= $items[18]['kvmeter'] ?>&nbsp;㎡<?php if ($items[18]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[18]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2062.58 25.5 2062.58 91.5 2134.58 91.5 2134.58 520.5 1816.58 520.5 1816.58 25.5 2062.58 25.5"/>
+                            <polygon id="<?= $items[18]['kvmeter'] ?>&nbsp;㎡<?php if ($items[18]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[18]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2062.58 25.5 2062.58 91.5 2134.58 91.5 2134.58 520.5 1816.58 520.5 1816.58 25.5 2062.58 25.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[17]['id'] ?>">
-                            <polygon id="<?= $items[17]['kvmeter'] ?>&nbsp;㎡<?php if ($items[17]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[17]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 13.5 1816.58 520.5 1507.58 520.5 1507.58 175.5 1324.58 175.5 1324.58 13.5 1816.58 13.5"/>
+                            <polygon id="<?= $items[17]['kvmeter'] ?>&nbsp;㎡<?php if ($items[17]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[17]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 13.5 1816.58 520.5 1507.58 520.5 1507.58 175.5 1324.58 175.5 1324.58 13.5 1816.58 13.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[16]['id'] ?>">
-                            <polygon id="<?= $items[16]['kvmeter'] ?>&nbsp;㎡<?php if ($items[16]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[16]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 13.5 1324.58 175.5 1117.58 175.5 1102.58 520.5 772.58 520.5 799.58 13.5 1324.58 13.5"/>
+                            <polygon id="<?= $items[16]['kvmeter'] ?>&nbsp;㎡<?php if ($items[16]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[16]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 13.5 1324.58 175.5 1117.58 175.5 1102.58 520.5 772.58 520.5 799.58 13.5 1324.58 13.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[15]['id'] ?>">
-                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="220.58 85.5 247.58 235.5 157.58 262.5 187.58 436.5 412.58 520.5 772.58 520.5 799.58 13.5 589.58 13.5 586.58 82.5 220.58 85.5"/>
+                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="220.58 85.5 247.58 235.5 157.58 262.5 187.58 436.5 412.58 520.5 772.58 520.5 799.58 13.5 589.58 13.5 586.58 82.5 220.58 85.5"/>
                         </a>
                     </svg>
                 <?php else: ?>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2883.1 997.04">
                         <image x="0.1" width="2883" height="997" xlink:href="/public/images/gallery/gegma.png"/>
                         <a href="/ka/apartment/<?= $items[12]['id'] ?>">
-                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="158.6 367.5 133.6 213.5 202.6 198.5 178.6 67.5 472.6 67.5 472.6 12.5 650.6 12.5 622.6 429.5 346.6 429.5 158.6 367.5"/>
+                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="158.6 367.5 133.6 213.5 202.6 198.5 178.6 67.5 472.6 67.5 472.6 12.5 650.6 12.5 622.6 429.5 346.6 429.5 158.6 367.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[13]['id'] ?>">
-                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="928.6 12.5 1079.6 12.5 1079.6 144.5 920.6 144.5 904.6 429.5 622.6 429.5 650.6 12.5 928.6 12.5"/>
+                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="928.6 12.5 1079.6 12.5 1079.6 144.5 920.6 144.5 904.6 429.5 622.6 429.5 650.6 12.5 928.6 12.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[14]['id'] ?>">
-                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 12.5 1481.6 429.5 1229.6 429.5 1229.6 150.5 1079.6 144.5 1079.6 12.5 1481.6 12.5"/>
+                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 12.5 1481.6 429.5 1229.6 429.5 1229.6 150.5 1079.6 144.5 1079.6 12.5 1481.6 12.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[15]['id'] ?>">
-                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1676.6 25.5 1682.6 79.5 1733.6 79.5 1739.6 429.5 1481.6 429.5 1481.6 19.61 1676.6 25.5"/>
+                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1676.6 25.5 1682.6 79.5 1733.6 79.5 1739.6 429.5 1481.6 429.5 1481.6 19.61 1676.6 25.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[0]['id'] ?>">
-                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2111.6 19.5 2135.6 423.5 2434.6 429.5 2399.6 12.5 2111.6 12.5 2111.6 19.5"/>
+                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2111.6 19.5 2135.6 423.5 2434.6 429.5 2399.6 12.5 2111.6 12.5 2111.6 19.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[1]['id'] ?>">
-                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2771.6 12.5 2822.6 460.5 2546.6 460.5 2539.6 429.5 2434.6 429.5 2399.6 12.5 2771.6 12.5"/>
+                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2771.6 12.5 2822.6 460.5 2546.6 460.5 2539.6 429.5 2434.6 429.5 2399.6 12.5 2771.6 12.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[2]['id'] ?>">
-                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2876.6 961.5 2822.6 460.5 2546.6 460.5 2546.6 498.5 2441.6 498.5 2477.6 961.5 2876.6 961.5"/>
+                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2876.6 961.5 2822.6 460.5 2546.6 460.5 2546.6 498.5 2441.6 498.5 2477.6 961.5 2876.6 961.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[3]['id'] ?>">
-                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2141.6 498.5 2162.6 948.5 2476.59 948.5 2441.6 498.5 2141.6 498.5"/>
+                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2141.6 498.5 2162.6 948.5 2476.59 948.5 2441.6 498.5 2141.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[4]['id'] ?>">
-                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1937.6 498.5 1958.6 948.5 2162.6 948.5 2141.6 498.5 1937.6 498.5"/>
+                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1937.6 498.5 1958.6 948.5 2162.6 948.5 2141.6 498.5 1937.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[5]['id'] ?>">
-                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1739.6 498.5 1753.6 948.5 1958.6 948.5 1937.6 498.5 1739.6 498.5"/>
+                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1739.6 498.5 1753.6 948.5 1958.6 948.5 1937.6 498.5 1739.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[6]['id'] ?>">
-                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 498.5 1481.6 948.5 1753.6 948.5 1739.6 498.5 1481.6 498.5"/>
+                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 498.5 1481.6 948.5 1753.6 948.5 1739.6 498.5 1481.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[7]['id'] ?>">
-                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1225.6 498.5 1219.6 948.5 1481.6 948.5 1481.6 498.5 1225.6 498.5"/>
+                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1225.6 498.5 1219.6 948.5 1481.6 948.5 1481.6 498.5 1225.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[8]['id'] ?>">
-                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="899.6 498.5 881.6 948.5 1219.6 948.5 1219.6 498.5 899.6 498.5"/>
+                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="899.6 498.5 881.6 948.5 1219.6 948.5 1219.6 498.5 899.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[9]['id'] ?>">
-                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="611.6 498.5 584.6 948.5 881.6 948.5 899.6 498.5 611.6 498.5"/>
+                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="611.6 498.5 584.6 948.5 881.6 948.5 899.6 498.5 611.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[10]['id'] ?>">
-                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="416.6 498.5 374.6 948.5 584.6 948.5 611.6 498.5 416.6 498.5"/>
+                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="416.6 498.5 374.6 948.5 584.6 948.5 611.6 498.5 416.6 498.5"/>
                         </a>
                         <a href="/ka/apartment/<?= $items[11]['id'] ?>">
-                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="151.6 370.5 22.6 673.5 86.6 693.5 0.6 868.5 28.6 900.5 124.6 900.5 106.6 970.5 122.6 996.5 313.6 970.5 374.6 972.5 419.74 429.5 346.6 429.5 158.6 370.5 151.6 370.5"/>
+                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;გაყიდულია<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="151.6 370.5 22.6 673.5 86.6 693.5 0.6 868.5 28.6 900.5 124.6 900.5 106.6 970.5 122.6 996.5 313.6 970.5 374.6 972.5 419.74 429.5 346.6 429.5 158.6 370.5 151.6 370.5"/>
                         </a>
                     </svg>
                 <?php endif; ?>
@@ -434,113 +433,113 @@ $token2 = Parse($video1,'var token',';');
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3545.15 1235">
                         <image x="0.08" width="3545" height="1235" xlink:href="/public/images/gallery/gegma20.png"/>
                         <a href="/en/apartment/<?= $items[14]['id'] ?>">
-                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="517.78 520.5 463.58 1165.5 373.58 1165.5 136.58 1192.5 157.58 1099.5 34.58 1105.5 0.58 1066.5 97.58 838.5 52.58 832.5 43.58 799.5 203.94 442.61 412.58 520.5 517.78 520.5"/>
+                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="517.78 520.5 463.58 1165.5 373.58 1165.5 136.58 1192.5 157.58 1099.5 34.58 1105.5 0.58 1066.5 97.58 838.5 52.58 832.5 43.58 799.5 203.94 442.61 412.58 520.5 517.78 520.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[13]['id'] ?>">
-                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="513.32 617.5 757.58 617.5 724.58 1165.5 463.58 1165.5 513.32 617.5"/>
+                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="513.32 617.5 757.58 617.5 724.58 1165.5 463.58 1165.5 513.32 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[12]['id'] ?>">
-                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="757.58 617.5 724.58 1165.5 1087.58 1165.5 1105.58 617.5 757.58 617.5"/>
+                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="757.58 617.5 724.58 1165.5 1087.58 1165.5 1105.58 617.5 757.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[11]['id'] ?>">
-                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1105.58 617.5 1087.58 1165.5 1303.58 1165.5 1324.58 617.5 1105.58 617.5"/>
+                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1105.58 617.5 1087.58 1165.5 1303.58 1165.5 1324.58 617.5 1105.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[10]['id'] ?>">
-                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 617.5 1303.58 1165.5 1492.58 1165.5 1507.58 617.5 1324.58 617.5"/>
+                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 617.5 1303.58 1165.5 1492.58 1165.5 1507.58 617.5 1324.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[9]['id'] ?>">
-                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1507.58 617.5 1492.58 1165.5 1816.58 1165.5 1816.58 617.5 1507.58 617.5"/>
+                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1507.58 617.5 1492.58 1165.5 1816.58 1165.5 1816.58 617.5 1507.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[8]['id'] ?>">
-                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 1165.5 2146.58 1165.5 2134.58 910.5 2134.58 617.5 1816.58 617.5 1816.58 1165.5"/>
+                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 1165.5 2146.58 1165.5 2134.58 910.5 2134.58 617.5 1816.58 617.5 1816.58 1165.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[7]['id'] ?>">
-                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2146.58 617.5 2146.58 1165.5 2401.58 1165.5 2380.58 617.5 2146.58 617.5"/>
+                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2146.58 617.5 2146.58 1165.5 2401.58 1165.5 2380.58 617.5 2146.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[6]['id'] ?>">
-                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2380.58 617.5 2401.58 1165.5 2659.58 1165.5 2629.58 617.5 2380.58 617.5"/>
+                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2380.58 617.5 2401.58 1165.5 2659.58 1165.5 2629.58 617.5 2380.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[5]['id'] ?>">
-                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2629.58 617.5 2659.58 1165.5 2827.58 1165.5 2806.58 617.5 2629.58 617.5"/>
+                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2629.58 617.5 2659.58 1165.5 2827.58 1165.5 2806.58 617.5 2629.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[4]['id'] ?>">
-                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2806.58 617.5 2827.58 1165.5 3037.58 1165.5 2995.58 617.5 2806.58 617.5"/>
+                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2806.58 617.5 2827.58 1165.5 3037.58 1165.5 2995.58 617.5 2806.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[3]['id'] ?>">
-                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2995.58 617.5 3127.58 617.5 3127.58 565.5 3466.58 565.5 3544.58 1165.5 3037.58 1165.5 2995.58 617.5"/>
+                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2995.58 617.5 3127.58 617.5 3127.58 565.5 3466.58 565.5 3544.58 1165.5 3037.58 1165.5 2995.58 617.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[2]['id'] ?>">
-                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2989.58 520.5 3118.58 520.5 3118.58 565.5 3466.58 565.5 3400.58 13.5 2956.58 13.5 2989.58 520.5"/>
+                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2989.58 520.5 3118.58 520.5 3118.58 565.5 3466.58 565.5 3400.58 13.5 2956.58 13.5 2989.58 520.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[1]['id'] ?>">
-                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2761.58 13.5 2806.58 520.5 2995.58 520.5 2956.58 13.5 2761.58 13.5"/>
+                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2761.58 13.5 2806.58 520.5 2995.58 520.5 2956.58 13.5 2761.58 13.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[0]['id'] ?>">
-                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2593.58 13.5 2629.58 520.5 2806.58 520.5 2761.58 13.5 2593.58 13.5"/>
+                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2593.58 13.5 2629.58 520.5 2806.58 520.5 2761.58 13.5 2593.58 13.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[18]['id'] ?>">
-                            <polygon id="<?= $items[18]['kvmeter'] ?>&nbsp;㎡<?php if ($items[18]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[18]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2062.58 25.5 2062.58 91.5 2134.58 91.5 2134.58 520.5 1816.58 520.5 1816.58 25.5 2062.58 25.5"/>
+                            <polygon id="<?= $items[18]['kvmeter'] ?>&nbsp;㎡<?php if ($items[18]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[18]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2062.58 25.5 2062.58 91.5 2134.58 91.5 2134.58 520.5 1816.58 520.5 1816.58 25.5 2062.58 25.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[17]['id'] ?>">
-                            <polygon id="<?= $items[17]['kvmeter'] ?>&nbsp;㎡<?php if ($items[17]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[17]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 13.5 1816.58 520.5 1507.58 520.5 1507.58 175.5 1324.58 175.5 1324.58 13.5 1816.58 13.5"/>
+                            <polygon id="<?= $items[17]['kvmeter'] ?>&nbsp;㎡<?php if ($items[17]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[17]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1816.58 13.5 1816.58 520.5 1507.58 520.5 1507.58 175.5 1324.58 175.5 1324.58 13.5 1816.58 13.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[16]['id'] ?>">
-                            <polygon id="<?= $items[16]['kvmeter'] ?>&nbsp;㎡<?php if ($items[16]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[16]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 13.5 1324.58 175.5 1117.58 175.5 1102.58 520.5 772.58 520.5 799.58 13.5 1324.58 13.5"/>
+                            <polygon id="<?= $items[16]['kvmeter'] ?>&nbsp;㎡<?php if ($items[16]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[16]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1324.58 13.5 1324.58 175.5 1117.58 175.5 1102.58 520.5 772.58 520.5 799.58 13.5 1324.58 13.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[15]['id'] ?>">
-                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="220.58 85.5 247.58 235.5 157.58 262.5 187.58 436.5 412.58 520.5 772.58 520.5 799.58 13.5 589.58 13.5 586.58 82.5 220.58 85.5"/>
+                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="220.58 85.5 247.58 235.5 157.58 262.5 187.58 436.5 412.58 520.5 772.58 520.5 799.58 13.5 589.58 13.5 586.58 82.5 220.58 85.5"/>
                         </a>
                     </svg>
                 <?php else: ?>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2883.1 997.04">
                         <image x="0.1" width="2883" height="997" xlink:href="/public/images/gallery/gegma.png"/>
                         <a href="/en/apartment/<?= $items[12]['id'] ?>">
-                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="158.6 367.5 133.6 213.5 202.6 198.5 178.6 67.5 472.6 67.5 472.6 12.5 650.6 12.5 622.6 429.5 346.6 429.5 158.6 367.5"/>
+                            <polygon id="<?= $items[12]['kvmeter'] ?>&nbsp;㎡<?php if ($items[12]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[12]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="158.6 367.5 133.6 213.5 202.6 198.5 178.6 67.5 472.6 67.5 472.6 12.5 650.6 12.5 622.6 429.5 346.6 429.5 158.6 367.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[13]['id'] ?>">
-                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="928.6 12.5 1079.6 12.5 1079.6 144.5 920.6 144.5 904.6 429.5 622.6 429.5 650.6 12.5 928.6 12.5"/>
+                            <polygon id="<?= $items[13]['kvmeter'] ?>&nbsp;㎡<?php if ($items[13]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[13]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="928.6 12.5 1079.6 12.5 1079.6 144.5 920.6 144.5 904.6 429.5 622.6 429.5 650.6 12.5 928.6 12.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[14]['id'] ?>">
-                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 12.5 1481.6 429.5 1229.6 429.5 1229.6 150.5 1079.6 144.5 1079.6 12.5 1481.6 12.5"/>
+                            <polygon id="<?= $items[14]['kvmeter'] ?>&nbsp;㎡<?php if ($items[14]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[14]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 12.5 1481.6 429.5 1229.6 429.5 1229.6 150.5 1079.6 144.5 1079.6 12.5 1481.6 12.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[15]['id'] ?>">
-                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1676.6 25.5 1682.6 79.5 1733.6 79.5 1739.6 429.5 1481.6 429.5 1481.6 19.61 1676.6 25.5"/>
+                            <polygon id="<?= $items[15]['kvmeter'] ?>&nbsp;㎡<?php if ($items[15]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[15]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1676.6 25.5 1682.6 79.5 1733.6 79.5 1739.6 429.5 1481.6 429.5 1481.6 19.61 1676.6 25.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[0]['id'] ?>">
-                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2111.6 19.5 2135.6 423.5 2434.6 429.5 2399.6 12.5 2111.6 12.5 2111.6 19.5"/>
+                            <polygon id="<?= $items[0]['kvmeter'] ?>&nbsp;㎡<?php if ($items[0]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[0]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2111.6 19.5 2135.6 423.5 2434.6 429.5 2399.6 12.5 2111.6 12.5 2111.6 19.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[1]['id'] ?>">
-                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2771.6 12.5 2822.6 460.5 2546.6 460.5 2539.6 429.5 2434.6 429.5 2399.6 12.5 2771.6 12.5"/>
+                            <polygon id="<?= $items[1]['kvmeter'] ?>&nbsp;㎡<?php if ($items[1]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[1]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2771.6 12.5 2822.6 460.5 2546.6 460.5 2539.6 429.5 2434.6 429.5 2399.6 12.5 2771.6 12.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[2]['id'] ?>">
-                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2876.6 961.5 2822.6 460.5 2546.6 460.5 2546.6 498.5 2441.6 498.5 2477.6 961.5 2876.6 961.5"/>
+                            <polygon id="<?= $items[2]['kvmeter'] ?>&nbsp;㎡<?php if ($items[2]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[2]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2876.6 961.5 2822.6 460.5 2546.6 460.5 2546.6 498.5 2441.6 498.5 2477.6 961.5 2876.6 961.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[3]['id'] ?>">
-                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2141.6 498.5 2162.6 948.5 2476.59 948.5 2441.6 498.5 2141.6 498.5"/>
+                            <polygon id="<?= $items[3]['kvmeter'] ?>&nbsp;㎡<?php if ($items[3]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[3]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="2141.6 498.5 2162.6 948.5 2476.59 948.5 2441.6 498.5 2141.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[4]['id'] ?>">
-                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1937.6 498.5 1958.6 948.5 2162.6 948.5 2141.6 498.5 1937.6 498.5"/>
+                            <polygon id="<?= $items[4]['kvmeter'] ?>&nbsp;㎡<?php if ($items[4]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[4]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1937.6 498.5 1958.6 948.5 2162.6 948.5 2141.6 498.5 1937.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[5]['id'] ?>">
-                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1739.6 498.5 1753.6 948.5 1958.6 948.5 1937.6 498.5 1739.6 498.5"/>
+                            <polygon id="<?= $items[5]['kvmeter'] ?>&nbsp;㎡<?php if ($items[5]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[5]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1739.6 498.5 1753.6 948.5 1958.6 948.5 1937.6 498.5 1739.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[6]['id'] ?>">
-                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 498.5 1481.6 948.5 1753.6 948.5 1739.6 498.5 1481.6 498.5"/>
+                            <polygon id="<?= $items[6]['kvmeter'] ?>&nbsp;㎡<?php if ($items[6]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[6]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1481.6 498.5 1481.6 948.5 1753.6 948.5 1739.6 498.5 1481.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[7]['id'] ?>">
-                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1225.6 498.5 1219.6 948.5 1481.6 948.5 1481.6 498.5 1225.6 498.5"/>
+                            <polygon id="<?= $items[7]['kvmeter'] ?>&nbsp;㎡<?php if ($items[7]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[7]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="1225.6 498.5 1219.6 948.5 1481.6 948.5 1481.6 498.5 1225.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[8]['id'] ?>">
-                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="899.6 498.5 881.6 948.5 1219.6 948.5 1219.6 498.5 899.6 498.5"/>
+                            <polygon id="<?= $items[8]['kvmeter'] ?>&nbsp;㎡<?php if ($items[8]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[8]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="899.6 498.5 881.6 948.5 1219.6 948.5 1219.6 498.5 899.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[9]['id'] ?>">
-                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="611.6 498.5 584.6 948.5 881.6 948.5 899.6 498.5 611.6 498.5"/>
+                            <polygon id="<?= $items[9]['kvmeter'] ?>&nbsp;㎡<?php if ($items[9]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[9]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="611.6 498.5 584.6 948.5 881.6 948.5 899.6 498.5 611.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[10]['id'] ?>">
-                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="416.6 498.5 374.6 948.5 584.6 948.5 611.6 498.5 416.6 498.5"/>
+                            <polygon id="<?= $items[10]['kvmeter'] ?>&nbsp;㎡<?php if ($items[10]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[10]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="416.6 498.5 374.6 948.5 584.6 948.5 611.6 498.5 416.6 498.5"/>
                         </a>
                         <a href="/en/apartment/<?= $items[11]['id'] ?>">
-                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Продано<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="151.6 370.5 22.6 673.5 86.6 693.5 0.6 868.5 28.6 900.5 124.6 900.5 106.6 970.5 122.6 996.5 313.6 970.5 374.6 972.5 419.74 429.5 346.6 429.5 158.6 370.5 151.6 370.5"/>
+                            <polygon id="<?= $items[11]['kvmeter'] ?>&nbsp;㎡<?php if ($items[11]['status'] == 1): ?>&nbsp;Sold<?php endif; ?>" class="<?php if ($items[11]['status'] == 1): ?>sold-polygon<?php else: ?>enabled<?php endif; ?>" points="151.6 370.5 22.6 673.5 86.6 693.5 0.6 868.5 28.6 900.5 124.6 900.5 106.6 970.5 122.6 996.5 313.6 970.5 374.6 972.5 419.74 429.5 346.6 429.5 158.6 370.5 151.6 370.5"/>
                         </a>
                     </svg>
                 <?php endif; ?>
