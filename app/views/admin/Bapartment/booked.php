@@ -49,7 +49,7 @@
                                         <th>Booked</th>
                                     <?php endif; ?>
                                     <th>
-                                        <a href="<?=ADMIN;?>/apartment/edit?id=<?=$apartment['id']?>">
+                                        <a href="<?=ADMIN;?>/bapartment/edit?id=<?=$apartment['id']?>">
                                             <i class="fa fa-fw fa-edit text-primary"></i>
                                         </a>
                                     </th>

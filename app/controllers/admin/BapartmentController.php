@@ -4,7 +4,7 @@
 namespace app\controllers\admin;
 
 
-use app\models\admin\Apartments;
+use app\models\admin\Bapartments;
 use ibuild\App;
 
 class BapartmentController extends AppController
@@ -30,14 +30,14 @@ class BapartmentController extends AppController
     public function editAction() {
         if(!empty($_POST)) {
             $id = $this->getRequestID(false);
-            $apartments = new Apartments();
+            $apartments = new Bapartments();
             $data = $_POST;
             $apartments->load($data);
             if($apartments->update('bapartments', $id)) {
                 $apartments = \R::load('bapartments', $id);
                 \R::store($apartments);
                 $_SESSION['success'] = "Edit saved";
-                redirect('/admin/apartment');
+                redirect('/admin/bapartment');
             }
         }
         $id = $this->getRequestID();

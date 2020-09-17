@@ -258,15 +258,9 @@ $token2 = Parse($video1,'var token',';');
                                 <div class="overflow">
                                     <div class="section-heading-outer m-b-15">
                                         <p class="sub-heading">ბინა №<?=$apartment->apartmentno?></p>
-                                        <?php if ($apartment->floorid < 7): ?>
-                                            <a class="sub-heading" href="/ka/floor/<?=($apartment->floorid) + 6?>">
-                                                <p class="sub-heading" style="color: #006cfa">სხვა ბინის არჩევა</p>
-                                            </a>
-                                        <?php else: ?>
-                                            <a class="sub-heading" href="/ka/floor/<?=($apartment->floorid) + 7?>">
-                                                <p class="sub-heading" style="color: #006cfa">სხვა ბინის არჩება</p>
-                                            </a>
-                                        <?php endif; ?>
+                                        <a class="sub-heading" href="/ka/bfloor/<?=($apartment->floorid) - 1?>">
+                                            <p class="sub-heading" style="color: #006cfa">სხვა ბინის არჩევა</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -500,15 +494,9 @@ $token2 = Parse($video1,'var token',';');
                                 <div class="overflow">
                                     <div class="section-heading-outer m-b-15">
                                         <p class="sub-heading">Apartment №<?=$apartment->apartmentno?></p>
-                                        <?php if ($apartment->floorid < 7): ?>
-                                            <a class="sub-heading" href="/en/floor/<?=($apartment->floorid) + 6?>">
-                                                <p class="sub-heading" style="color: #006cfa">Pick other apartment</p>
-                                            </a>
-                                        <?php else: ?>
-                                            <a class="sub-heading" href="/en/floor/<?=($apartment->floorid) + 7?>">
-                                                <p class="sub-heading" style="color: #006cfa">Pick other apartment</p>
-                                            </a>
-                                        <?php endif; ?>
+                                        <a class="sub-heading" href="/en/bfloor/<?=($apartment->floorid) - 1?>">
+                                            <p class="sub-heading" style="color: #006cfa">Pick other apartment</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -923,15 +911,9 @@ $token2 = Parse($video1,'var token',';');
                                 <div class="overflow">
                                     <div class="section-heading-outer m-b-15">
                                         <p class="sub-heading">Квартира №<?=$apartment->apartmentno?></p>
-                                        <?php if ($apartment->floorid < 7): ?>
-                                            <a class="sub-heading" href="/ru/floor/<?=($apartment->floorid) + 6?>">
-                                                <p class="sub-heading" style="color: #006cfa">Выбрать другую квартиру</p>
-                                            </a>
-                                        <?php else: ?>
-                                            <a class="sub-heading" href="/ru/floor/<?=($apartment->floorid) + 7?>">
-                                                <p class="sub-heading" style="color: #006cfa">Выбрать другую квартиру</p>
-                                            </a>
-                                        <?php endif; ?>
+                                        <a class="sub-heading" href="/ru/bfloor/<?=($apartment->floorid) - 1?>">
+                                            <p class="sub-heading" style="color: #006cfa">Выбрать другую квартиру</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

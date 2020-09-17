@@ -20,7 +20,7 @@
                         <h5><i class="icon fas fa-check"></i><?=$_SESSION['success']; unset($_SESSION['success']);?></h5>
                     </div>
                 <?php endif; ?>
-                <form action="<?=ADMIN;?>/apartment/edit" method="post" data-toggle="validator">
+                <form action="<?=ADMIN;?>/bapartment/edit" method="post" data-toggle="validator">
                     <select class="form-control" name="status" id="status">
                         <option <?=$apartments->status ? 'selected' : ''?> value="1">Sold</option>
                         <option <?=$apartments->status ? '' : 'selected'?> value="0">For sale</option>

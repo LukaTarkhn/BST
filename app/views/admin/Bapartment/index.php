@@ -4,8 +4,8 @@
         <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Apartments list</h1>
-                <a href="<?=ADMIN;?>/apartment/sold" class="btn btn-success">Sold apartments</a>
-                <a href="<?=ADMIN;?>/apartment/booked" class="btn btn-warning">Booked apartments</a>
+                <a href="<?=ADMIN;?>/bapartment/sold" class="btn btn-success">Sold apartments</a>
+                <a href="<?=ADMIN;?>/bapartment/booked" class="btn btn-warning">Booked apartments</a>
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -56,7 +56,7 @@
                                         <th>Booked</th>
                                     <?php endif; ?>
                                     <th>
-                                        <a style="width: 100%;" href="<?=ADMIN;?>/apartment/edit?id=<?=$apartment['id']?>">
+                                        <a style="width: 100%;" href="<?=ADMIN;?>/bapartment/edit?id=<?=$apartment['id']?>">
                                             <i style="width: 100%" class="fa fa-fw fa-edit text-primary"></i>
                                         </a>
                                     </th>
