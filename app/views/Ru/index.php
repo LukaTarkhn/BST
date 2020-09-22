@@ -214,47 +214,47 @@ $token2 = Parse($video1,'var token',';');
 ============================= -->
 <div id="fp-nav" class="left">
     <div id="fp-nolink">
-        <div class="logo-outer">
+        <div class="logo-outer" title="Выберите этаж">
             <a href="#1"><img src="/public/images/gallery/logo.png" alt="" class="img-responsive"></a>
         </div>
         <ul>
             <li></li>
-            <li>
+            <li title="О комплексе">
                 <a href="#2" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file-alt" class="svg-inline--fa fa-file-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0 21.5 21.5 0 48 0h204.1C264.8 0 277 5.1 286 14.1L369.9 98c9 8.9 14.1 21.2 14.1 33.9zm-128-80V128h76.1L256 51.9zM336 464V176H232c-13.3 0-24-10.7-24-24V48H48v416h288z"></path></svg>
                             </span>
                 </a>
             </li>
-            <li>
+            <li title="Апартаменти">
                 <a href="#3" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brush" class="svg-inline--fa fa-brush fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M352 0H32C14.33 0 0 14.33 0 32v224h384V32c0-17.67-14.33-32-32-32zM0 320c0 35.35 28.66 64 64 64h64v64c0 35.35 28.66 64 64 64s64-28.65 64-64v-64h64c35.34 0 64-28.65 64-64v-32H0v32zm192 104c13.25 0 24 10.74 24 24 0 13.25-10.75 24-24 24s-24-10.75-24-24c0-13.26 10.75-24 24-24z"></path></svg>
                             </span>
                 </a>
             </li>
-            <li>
+            <li title="МЕДИА">
                 <a href="#4" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="photo-video" class="svg-inline--fa fa-photo-video fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M608 0H160a32 32 0 0 0-32 32v96h160V64h192v320h128a32 32 0 0 0 32-32V32a32 32 0 0 0-32-32zM232 103a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9V73a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm352 208a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9v-30a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm0-104a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9v-30a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm0-104a9 9 0 0 1-9 9h-30a9 9 0 0 1-9-9V73a9 9 0 0 1 9-9h30a9 9 0 0 1 9 9zm-168 57H32a32 32 0 0 0-32 32v288a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V192a32 32 0 0 0-32-32zM96 224a32 32 0 1 1-32 32 32 32 0 0 1 32-32zm288 224H64v-32l64-64 32 32 128-128 96 96z"></path></svg>
                             </span>
                 </a>
             </li>
-            <li>
+            <li title="Вопросы">
                 <a href="#5" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle" class="svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>
                             </span>
                 </a>
             </li>
-            <li>
+            <li title="Сотрудники">
                 <a href="#6" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" class="svg-inline--fa fa-users fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg>
                             </span>
                 </a>
             </li>
-            <li>
+            <li title="Контакты">
                 <a href="#7" class="">
                             <span>
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
@@ -318,7 +318,7 @@ $token2 = Parse($video1,'var token',';');
                     <li><a class="btn-nav" href="#2">О комплексе</a></li>
                     <li><a class="btn-nav" href="#3">Апартаменти</a></li>
                     <li><a class="btn-nav" href="#4">МЕДИА</a></li>
-                    <li><a class="btn-nav" href="#5">вопросы</a></li>
+                    <li><a class="btn-nav" href="#5">Вопросы</a></li>
                     <li><a class="btn-nav" href="#6">Сотрудники</a></li>
                     <li><a class="btn-nav" href="#7">Контакты</a></li>
                 </ul>
@@ -356,7 +356,7 @@ $token2 = Parse($video1,'var token',';');
                 - HOME PAGE
             ====================================-->
             <div class="section section-item home-section overflow hide-overlay overlay-color bg-image-1" data-heading="">
-                <div class="inner-container ">
+                <div class="inner-container for-desktop">
                     <div class="footer-button">
                         <a href="#" class="btn">
                             <p class="icon">
@@ -597,6 +597,27 @@ $token2 = Parse($video1,'var token',';');
                         <div class="description"></div>
                     </div> <!-- End: .container -->
                 </div> <!-- End: .inner-container -->
+
+                <div class="inner-container for-mobile">
+                        <p class="header">A Блок</p>
+                        <?php  foreach ($floors as $floor): ?>
+                            <?php  if ($floor->floor == 100 || $floor->floor == 200 || $floor->floor == 300 || $floor->floor == 400 || $floor->floor == 500 
+                            || $floor->floor == 0 || $floor->floor == 1 || $floor->floor == 2 || $floor->floor == 3 || $floor->floor == 41): ?>
+                            
+                            <?php else: ?>
+                                <a href="/ka/floor/<?=$floor->id?>" class="floorbutton">Этаж <?=$floor->floor?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                        <p class="header">B Блок</p>
+                        <?php  foreach ($bfloors as $floor): ?>
+                            <?php  if ($floor->floor == 100 || $floor->floor == 200 || $floor->floor == 300 || $floor->floor == 400 || $floor->floor == 500 
+                            || $floor->floor == 0 || $floor->floor == 1 || $floor->floor == 2 || $floor->floor == 3 || $floor->floor == 41): ?>
+                            
+                            <?php else: ?>
+                                <a href="/ka/bfloor/<?=$floor->id?>" class="floorbutton">Этаж <?=$floor->floor?></a>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                </div>
             </div>
             <!--End: 1st Page Slider Section
                 - HOME PAGE
@@ -905,6 +926,9 @@ $token2 = Parse($video1,'var token',';');
                                                 <img src="/public/images/gallery/360-camera.png" alt="">
                                             </a>
                                             <a class="popup-360-3" style="margin: 0; margin-bottom: 5px; border-radius: 4px;" href="https://kuula.co/share/7Fps1?fs=1&vr=0&sd=1&autorotate=0.59&thumbs=1&chromeless=0&logo=0">
+                                                <img src="/public/images/gallery/360-camera.png" alt="">
+                                            </a>
+                                            <a class="popup-360-4" style="margin: 0; margin-bottom: 5px; border-radius: 4px;" href="https://kuula.co/share/7d8Xd?fs=1&vr=0&sd=1&autorotate=0.59&thumbs=1&chromeless=0&logo=0">
                                                 <img src="/public/images/gallery/360-camera.png" alt="">
                                             </a>
                                         </div>

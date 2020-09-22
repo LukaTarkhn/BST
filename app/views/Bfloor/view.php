@@ -178,7 +178,7 @@ $token2 = Parse($video1,'var token',';');
         <p class="sub-heading" style="top: 2%">სართული <?=$floor->floor?></p>
         <div class="inner-container">
             <p class="pick-heading" style="margin-bottom: -25px"><i class="icon icon-arrow-carrot-up"></i></p>
-            <p class="pick-heading">ქალაქის ხედით</p>
+            <p class="pick-heading">ზღვის ხედით</p>
             <div class="apartment-pick">
                 <?php if ($floor->floor == 5):  ?>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2115 824.25">
@@ -321,7 +321,7 @@ $token2 = Parse($video1,'var token',';');
                <div class="description"></div>
             </div>
 
-            <p class="pick-heading">ზღვის ხედით</p>
+            <p class="pick-heading">ქალაქისა და ზღვის ხედით</p>
             <p class="pick-heading" style="margin-top: -25px"><i class="icon icon-arrow-carrot-down"></i></p>
         </div>
     </section>
@@ -451,7 +451,7 @@ $token2 = Parse($video1,'var token',';');
         <p class="sub-heading" style="top: 2%">Flor <?=$floor->floor?></p>
         <div class="inner-container">
             <p class="pick-heading" style="margin-bottom: -25px"><i class="icon icon-arrow-carrot-up"></i></p>
-            <p class="pick-heading">City view</p>
+            <p class="pick-heading">Sea view</p>
             <div class="apartment-pick">
                 <?php if ($floor->floor == 5):  ?>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2115 824.25">
@@ -594,7 +594,7 @@ $token2 = Parse($video1,'var token',';');
                 <div class="description"></div>
             </div>
 
-            <p class="pick-heading">Sea view</p>
+            <p class="pick-heading">City and Sea view</p>
             <p class="pick-heading" style="margin-top: -25px"><i class="icon icon-arrow-carrot-down"></i></p>
         </div>
     </section>
@@ -724,7 +724,7 @@ $token2 = Parse($video1,'var token',';');
         <p class="sub-heading" style="top: 2%">этаж <?=$floor->floor?></p>
         <div class="inner-container">
             <p class="pick-heading" style="margin-bottom: -25px"><i class="icon icon-arrow-carrot-up"></i></p>
-            <p class="pick-heading">Вид на город</p>
+            <p class="pick-heading">Вид на море</p>
             <div class="apartment-pick">
                 <?php if ($floor->floor == 5):  ?>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2115 824.25">
@@ -867,7 +867,7 @@ $token2 = Parse($video1,'var token',';');
                 <div class="description"></div>
             </div>
 
-            <p class="pick-heading">Вид на море</p>
+            <p class="pick-heading">Вид на город и море</p>
             <p class="pick-heading" style="margin-top: -25px"><i class="icon icon-arrow-carrot-down"></i></p>
         </div>
     </section>

@@ -4151,6 +4151,11 @@ section.section {
   background-position: center;
   background-size: cover;
 }
+.popup-360-4 {
+  background-image: url(/public/images/gallery/360-4.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 .real-videos a {
   width: 180px;
@@ -7197,4 +7202,7 @@ rect {
 #iframevideo {
   width: 640px;
   height: 480px;
+}
+.for-mobile {
+  display: none;
 }
