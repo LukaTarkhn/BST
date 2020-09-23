@@ -5,23 +5,23 @@
   .for-mobile {
     display: block;
     margin-top: 100px;
-    padding-left: 30px;
     padding-bottom: 60px;
+    text-align: center;
+  }
+  .for-mobile p {
+    text-align: center;
   }
   .fp-tableCell{
     vertical-align: top;
   }
   .floorbutton {
-    color: #64739d;
-    box-shadow: #64739d 0 0px 0px 2px inset;
-    border-radius: 4px;
-    padding: 10px 7px;
-    margin-bottom: 4px;
+    color: #f7b66b;
+    box-shadow: #e6b882 0 0 0 1px inset;
+    border-radius: 3px;
+    margin-bottom: 2px;
     width: 104px;
   }
-  .bg-image-1 {
-    background: url(/images/gallery/pattern1.gif) repeat top left #fdfdfd;
-  }
+
   .header {
     font-size: 20px;
     color: #f7ac54;

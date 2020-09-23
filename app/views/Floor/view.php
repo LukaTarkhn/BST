@@ -87,61 +87,6 @@ $token2 = Parse($video1,'var token',';');
                     <img src="/public/images/gallery/EN.png" alt="">
                 </a>
             </div>
-            <div class="livecams" style="margin-top: 70px">
-                <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                    <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                </a>
-                <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                    <p class="call-back--header"><b>კრედიტის კალკულატორი</b></p>
-                    <form class="calculator-form">
-                        <label for="price">გადასახდელი თანხის ოდენობა:</label>
-                        <input type="number" id="price" name="price" class="input-field"  required>
-                        <label for="percent">წინასწარი გადახდა:</label>
-                        <select id="percent" name="percent" class="input-field" required>
-                            <option value="20">20%</option>
-                            <option value="30">30%</option>
-                            <option value="40">40%</option>
-                            <option value="50">50%</option>
-                            <option value="60">60%</option>
-                            <option value="70">70%</option>
-                            <option value="80">80%</option>
-                            <option value="90">90%</option>
-                        </select>
-                        <label for="months">გადახდის ხანგრძლივობა <b style="color: #0b2e13">0%</b> პროცენტად:</label>
-                        <select id="months" name="months" class="input-field" required>
-                            <option value="27">27 თვე</option>
-                            <option value="26">26 თვე</option>
-                            <option value="25">25 თვე</option>
-                            <option value="24">24 თვე</option>
-                            <option value="23">23 თვე</option>
-                            <option value="22">22 თვე</option>
-                            <option value="21">21 თვე</option>
-                            <option value="20">20 თვე</option>
-                            <option value="19">19 თვე</option>
-                            <option value="18">18 თვე</option>
-                            <option value="17">17 თვე</option>
-                            <option value="16">16 თვე</option>
-                            <option value="15">15 თვე</option>
-                            <option value="14">14 თვე</option>
-                            <option value="13">13 თვე</option>
-                            <option value="12">12 თვე</option>
-                            <option value="11">11 თვე</option>
-                            <option value="10">10 თვე</option>
-                            <option value="9">9 თვე</option>
-                            <option value="8">8 თვე</option>
-                            <option value="7">7 თვე</option>
-                            <option value="6">6 თვე</option>
-                            <option value="5">5 თვე</option>
-                            <option value="4">4 თვე</option>
-                            <option value="3">3 თვე</option>
-                            <option value="2">2 თვე</option>
-                            <option value="1">1 თვე</option>
-                        </select>
-                        <label for="equal">ყოველთვიური გადასახადი:</label>
-                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                    </form>
-                </div>
-            </div>
         </div>
         <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">
             <div id="bingc-phone-button-tooltip" class="bingc-phone-button-tooltip bingc-phone-button-tooltip-bottom-left bingc-phone-button-tooltip-show-first bingc-phone-button-tooltip-show-second"> დატოვეთ ნომერი და <br>ჩვენ გადმოგირეკავთ
@@ -336,61 +281,6 @@ $token2 = Parse($video1,'var token',';');
                     <img src="/public/images/gallery/EN.png" alt="">
                 </a>
             </div>
-            <div class="livecams" style="margin-top: 70px">
-                <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                    <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                </a>
-                <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                    <p class="call-back--header"><b>Loan calculator</b></p>
-                    <form class="calculator-form">
-                        <label for="price">Price:</label>
-                        <input type="number" id="price" name="price" class="input-field"  required>
-                        <label for="percent">Minimum advance payment:</label>
-                        <select id="percent" name="percent" class="input-field" required>
-                            <option value="20">20%</option>
-                            <option value="30">30%</option>
-                            <option value="40">40%</option>
-                            <option value="50">50%</option>
-                            <option value="60">60%</option>
-                            <option value="70">70%</option>
-                            <option value="80">80%</option>
-                            <option value="90">90%</option>
-                        </select>
-                        <label for="months">Duration of payment <b style="color: #0b2e13">0%</b> rate:</label>
-                        <select id="months" name="months" class="input-field" required>
-                            <option value="27">27 month</option>
-                            <option value="26">26 month</option>
-                            <option value="25">25 month</option>
-                            <option value="24">24 month</option>
-                            <option value="23">23 month</option>
-                            <option value="22">22 month</option>
-                            <option value="21">21 month</option>
-                            <option value="20">20 month</option>
-                            <option value="19">19 month</option>
-                            <option value="18">18 month</option>
-                            <option value="17">17 month</option>
-                            <option value="16">16 month</option>
-                            <option value="15">15 month</option>
-                            <option value="14">14 month</option>
-                            <option value="13">13 month</option>
-                            <option value="12">12 month</option>
-                            <option value="11">11 month</option>
-                            <option value="10">10 month</option>
-                            <option value="9">9 month</option>
-                            <option value="8">8 month</option>
-                            <option value="7">7 month</option>
-                            <option value="6">6 month</option>
-                            <option value="5">5 month</option>
-                            <option value="4">4 month</option>
-                            <option value="3">3 month</option>
-                            <option value="2">2 month</option>
-                            <option value="1">1 month</option>
-                        </select>
-                        <label for="equal">Monthly payment:</label>
-                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                    </form>
-                </div>
-            </div>
         </div>
         <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">
             <div id="bingc-phone-button-tooltip" class="bingc-phone-button-tooltip bingc-phone-button-tooltip-bottom-left bingc-phone-button-tooltip-show-first bingc-phone-button-tooltip-show-second"> Do you want to call you<br>back at a convenient time? 
@@ -584,61 +474,6 @@ $token2 = Parse($video1,'var token',';');
                 <a href="/en">
                     <img src="/public/images/gallery/EN.png" alt="">
                 </a>
-            </div>
-            <div class="livecams" style="margin-top: 70px">
-                <a href="#calculator" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="width: 80px; text-align: center;">
-                    <img style="width: 50px" src="/public/images/gallery/calculator.png" alt="">
-                </a>
-                <div id="calculator" class="zoom-anim-dialog mfp-hide">
-                    <p class="call-back--header"><b>Калькулатор кредита</b></p>
-                    <form class="calculator-form">
-                        <label for="price">Итоговая цена:</label>
-                        <input type="number" id="price" name="price" class="input-field"  required>
-                        <label for="percent">Минимальная предоплата:</label>
-                        <select id="percent" name="percent" class="input-field" required>
-                            <option value="20">20%</option>
-                            <option value="30">30%</option>
-                            <option value="40">40%</option>
-                            <option value="50">50%</option>
-                            <option value="60">60%</option>
-                            <option value="70">70%</option>
-                            <option value="80">80%</option>
-                            <option value="90">90%</option>
-                        </select>
-                        <label for="months">Продолжительность платежа <b style="color: #0b2e13">0%</b> Процентная ставка:</label>
-                        <select id="months" name="months" class="input-field" required>
-                            <option value="27">27 Месяц</option>
-                            <option value="26">26 Месяц</option>
-                            <option value="25">25 Месяц</option>
-                            <option value="24">24 Месяц</option>
-                            <option value="23">23 Месяц</option>
-                            <option value="22">22 Месяц</option>
-                            <option value="21">21 Месяц</option>
-                            <option value="20">20 Месяц</option>
-                            <option value="19">19 Месяц</option>
-                            <option value="18">18 Месяц</option>
-                            <option value="17">17 Месяц</option>
-                            <option value="16">16 Месяц</option>
-                            <option value="15">15 Месяц</option>
-                            <option value="14">14 Месяц</option>
-                            <option value="13">13 Месяц</option>
-                            <option value="12">12 Месяц</option>
-                            <option value="11">11 Месяц</option>
-                            <option value="10">10 Месяц</option>
-                            <option value="9">9 Месяц</option>
-                            <option value="8">8 Месяц</option>
-                            <option value="7">7 Месяц</option>
-                            <option value="6">6 Месяц</option>
-                            <option value="5">5 Месяц</option>
-                            <option value="4">4 Месяц</option>
-                            <option value="3">3 Месяц</option>
-                            <option value="2">2 Месяц</option>
-                            <option value="1">1 Месяц</option>
-                        </select>
-                        <label for="equal">Ежемесячный платёж:</label>
-                        <input type="text" id="equal" name="equal" class="input-field" value="0$" disabled>
-                    </form>
-                </div>
             </div>
         </div>
         <a href="#call-back" class="popup-with-move-anim bingc-phone-button bingc-language-ru bingc-show" id="bingc-phone-button" style="bottom: 7%; right: 2%;">

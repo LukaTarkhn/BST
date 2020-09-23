@@ -599,6 +599,11 @@ $token2 = Parse($video1,'var token',';');
                 </div> <!-- End: .inner-container -->
 
                 <div class="inner-container for-mobile">
+                        <h3 class="header">
+                            <i class="icon icon-arrow-carrot-down"></i>
+                            Select floor
+                            <i class="icon icon-arrow-carrot-down"></i>
+                        </h3>
                         <p class="header">A Block</p>
                         <?php  foreach ($floors as $floor): ?>
                             <?php  if ($floor->floor == 100 || $floor->floor == 200 || $floor->floor == 300 || $floor->floor == 400 || $floor->floor == 500 
